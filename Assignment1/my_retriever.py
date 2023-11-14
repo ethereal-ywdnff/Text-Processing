@@ -24,7 +24,7 @@ class Retrieve:
                 if self.term_weighting == 'binary':
                     self.doc_length[no] += 1
                 elif self.term_weighting == 'tf':
-                    self.doc_length[no] += term_freq
+                    self.doc_length[no] += term_freq ** 2
                 elif self.term_weighting == 'tfidf':
                     df = len(self.index[word])
                     idf = log(len(self.doc_ids) / df)
@@ -77,6 +77,11 @@ class Retrieve:
         # Create a dictionary that stores words and their times of occurrence
         for word in query:
             self.query_weights[word] = self.query_weights.get(word, 0) + 1
+        for word in self.query_weights:
+            if word in self.index:
+                # Using log of tf as a term weight rather than tf
+                wf = 1 + log(self.query_weights[word])  # wf = 1 + log(tf)
+                self.query_weights[word] = wf
         result = self.compute_cos(self.query_weights)
 
         return result
