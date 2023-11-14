@@ -16,6 +16,9 @@ class Retrieve:
     def compute_documents_info(self):
         for word in self.index:
             self.doc_ids.update(self.index[word])
+        self.num_docs = len(self.doc_ids)
+        for word in self.index:
+            self.doc_ids.update(self.index[word])
             for no in self.index[word]:
                 term_freq = self.index[word][no]
                 # Compute length of vector
@@ -27,9 +30,8 @@ class Retrieve:
                     self.doc_length[no] += term_freq ** 2
                 elif self.term_weighting == 'tfidf':
                     df = len(self.index[word])
-                    idf = log(len(self.doc_ids) / df)
+                    idf = log(self.num_docs / df)
                     self.doc_length[no] += (term_freq * idf) ** 2
-        self.num_docs = len(self.doc_ids)
         # Extraction of square root
         for no in self.doc_length:
             self.doc_length[no] = sqrt(self.doc_length[no])
@@ -59,7 +61,7 @@ class Retrieve:
         # Create a dictionary that stores words and occurrence
         for word in query:
             # In the binary weighting calculation, whenever a word is included in the query
-            # (no matter how many times it occurs), its weight is set to 1
+            # (no matter how many times it occurs), its term frequency is set to 1
             self.query_weights[word] = 1
         result = {i: 0 for i in self.doc_ids}
         for word, weight in self.query_weights.items():
