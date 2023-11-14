@@ -108,7 +108,7 @@ class Retrieve:
         return result
 
     """for_query(self, query)
-    This function uses all the functions above to return the sorted result from best ranking to worst ranking"""
+    This function uses all the functions above to return the sorted result from best similarity to worst similarity"""
     def for_query(self, query):
         if self.term_weighting == 'binary':
             result = self.using_binary(query)
