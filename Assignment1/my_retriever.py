@@ -35,12 +35,14 @@ class Retrieve:
                 if self.term_weighting == 'binary':
                     self.doc_length[no] += 1
                 elif self.term_weighting == 'tf':
-                    ntf = self.max_tf_normalization(0.67, term_freq, self.max_tf_doc[no])
-                    self.doc_length[no] += ntf ** 2
+                    # ntf = self.max_tf_normalization(0.45, term_freq, self.max_tf_doc[no])
+                    # self.doc_length[no] += ntf ** 2
+                    wf = 1 + log(term_freq)
+                    self.doc_length[no] += wf ** 2
                 elif self.term_weighting == 'tfidf':
                     df = len(self.index[word])
                     idf = log(self.num_docs / df)
-                    ntf = self.max_tf_normalization(0.35, term_freq, self.max_tf_doc[no])
+                    ntf = self.max_tf_normalization(0.2, term_freq, self.max_tf_doc[no])
                     self.doc_length[no] += (ntf * idf) ** 2
         # Extraction of square root
         for no in self.doc_length:
@@ -56,11 +58,13 @@ class Retrieve:
                     if self.term_weighting == 'tfidf':
                         df = len(self.index[word])
                         idf = log(self.num_docs / df)
-                        ntf = self.max_tf_normalization(0.35, term_freq, self.max_tf_doc[no])
+                        ntf = self.max_tf_normalization(0.2, term_freq, self.max_tf_doc[no])
                         similarity[no] += weight * ntf * idf
                     else:  # If term weighting is 'tf', idf doesn't need to be computed
-                        ntf = self.max_tf_normalization(0.67, term_freq, self.max_tf_doc[no])
-                        similarity[no] += weight * ntf
+                        # ntf = self.max_tf_normalization(0.45, term_freq, self.max_tf_doc[no])
+                        # similarity[no] += weight * ntf
+                        wf = 1 + log(term_freq)
+                        similarity[no] += weight * wf
         # Compute the similarity (divide by the length of vector 'doc_length')
         for sim in similarity:
             similarity[sim] /= self.doc_length[sim]
@@ -98,14 +102,15 @@ class Retrieve:
         for word in query:
             self.query_weights[word] = self.query_weights.get(word, 0) + 1
 
-        # max_tf = max([j for i, j in self.query_weights.items()])
-        # print(max(m))
+        max_tf = max([j for i, j in self.query_weights.items()])
         for word in self.query_weights:
             if word in self.index:
-                # Using ntf as a term weight rather than tf
                 # ntf = self.max_tf_normalization(0.45, self.query_weights[word], max_tf)
                 # self.query_weights[word] = ntf
-                self.query_weights[word] = self.query_weights[word]
+
+                # Use wf rather than tf
+                wf = 1 + log(self.query_weights[word])  # 1 + log(tf)
+                self.query_weights[word] = wf
         result = self.compute_cos(self.query_weights)
 
         return result
@@ -116,17 +121,16 @@ class Retrieve:
         # Create a dictionary that stores words and their times of occurrence
         for word in query:
             self.query_weights[word] = self.query_weights.get(word, 0) + 1
-        # max_tf = max([j for i, j in self.query_weights.items()])
+        max_tf = max([j for i, j in self.query_weights.items()])
         # The condition is different from that of 'tf' scheme
         # In the terming weight of 'tfidf', it needs to times the idf
         for word in self.query_weights:
             if word in self.index:
+                # Use ntf rather than tf
+                ntf = self.max_tf_normalization(0.2, self.query_weights[word], max_tf)
                 df = len(self.index[word])
-                # Using ntf as a term weight rather than tf
-                # ntf = self.max_tf_normalization(0.2, self.query_weights[word], max_tf)
                 idf = log(self.num_docs / df)
-                # self.query_weights[word] = ntf * idf
-                self.query_weights[word] = self.query_weights[word] * idf
+                self.query_weights[word] = ntf * idf
         result = self.compute_cos(self.query_weights)
 
         return result
