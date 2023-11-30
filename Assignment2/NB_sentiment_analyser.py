@@ -9,7 +9,8 @@ import argparse
 """
 IMPORTANT, modify this part with your details
 """
-USER_ID = "acpXXjd" #your unique student ID, i.e. the IDs starting with "acp", "mm" etc that you use to login into MUSE 
+USER_ID = "ace21kl"  #your unique student ID, i.e. the IDs starting with "acp", "mm" etc that you use to login into MUSE
+
 
 def parse_args():
     parser=argparse.ArgumentParser(description="A Naive Bayes Sentiment Analyser for the Rotten Tomatoes Movie Reviews dataset")
@@ -25,35 +26,35 @@ def parse_args():
 
 
 def main():
-    
+
     inputs=parse_args()
-    
+
     #input files
     training = inputs.training
     dev = inputs.dev
     test = inputs.test
-    
+
     #number of classes
     number_classes = inputs.classes
-    
+
     #accepted values "features" to use your features or "all_words" to use all words (default = all_words)
     features = inputs.features
-    
+
     #whether to save the predictions for dev and test on files (default = no files)
     output_files = inputs.output_files
-     
-    
+
+
     #whether to print confusion matrix (default = no confusion matrix)
     confusion_matrix = inputs.confusion_matrix
-    
+
     """
     ADD YOUR CODE HERE
     Create functions and classes, using the best practices of Software Engineering
     """
-    
+
     #You need to change this in order to return your macro-F1 score for the dev set
     f1_score = 0
-    
+
 
     """
     IMPORTANT: your code should return the lines below. 
