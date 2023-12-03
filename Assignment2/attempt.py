@@ -44,16 +44,15 @@ def main():
     if inputs.classes == 3:
         train_data['Sentiment'] = train_data['Sentiment'].apply(map_labels_5_to_3)
 
-    # Tokenization
-    # train_data['Phrase'] = train_data['Phrase'].apply(tokenize)
-    # train_data['Phrase'] = train_data['Phrase']
 
+    # print(train_data['Phrase'])
     # Feature selection (if necessary)
     if inputs.features == "features":
-        X_train = feature_selection(train_data['Phrase'], train_data['Phrase'],
-                                    inputs.num_features)  # Define num_features as needed
+        X_train = feature_selection(train_data['Phrase'])  # Define num_features as needed
+        # print(X_train)
     else:
         X_train = train_data['Phrase']
+        # print(X_train)
 
     # Initialize and train Naive Bayes Classifier
     nb_classifier = NaiveBayesClassifier()
@@ -61,21 +60,21 @@ def main():
 
     # Load, preprocess, and predict on dev set
     dev_data = load_data(dev_file)
-    # dev_data['Phrase'] = dev_data['Phrase'].apply(preprocess).apply(tokenize)
     dev_data['Phrase'] = dev_data['Phrase'].apply(preprocess)
-    X_dev = feature_selection(dev_data['Phrase'], dev_data['Sentiment'],
-                              inputs.num_features) if inputs.features == "features" else dev_data['Phrase']
+    if inputs.features == "features":
+        X_dev = feature_selection(dev_data['Phrase'])
+    else:
+        X_dev = dev_data['Phrase']
     dev_predictions = nb_classifier.predict(X_dev)
+    # print(dev_predictions)
 
     test_data = load_data(test_file)
     test_data['Phrase'] = test_data['Phrase'].apply(preprocess)
 
-    # Tokenize text data
-    # test_data['Phrase'] = test_data['Phrase'].apply(tokenize)
 
     # Feature selection (if necessary)
     if inputs.features == "features":
-        X_test = feature_selection(test_data['Phrase'], None, inputs.num_features)
+        X_test = feature_selection(test_data['Phrase'])
     else:
         X_test = test_data['Phrase']
 

@@ -17,10 +17,10 @@ def macro_f1_score(y_true, y_pred, classes):
     """
     f1_scores = []
 
-    for cls in classes:
-        tp = sum((y_true == cls) & (y_pred == cls))
-        fp = sum((y_true != cls) & (y_pred == cls))
-        fn = sum((y_true == cls) & (y_pred != cls))
+    for i in classes:
+        tp = sum((y_true == i) & (y_pred == i))
+        fp = sum((y_true != i) & (y_pred == i))
+        fn = sum((y_true == i) & (y_pred != i))
 
         precision = tp / (tp + fp) if tp + fp != 0 else 0
         recall = tp / (tp + fn) if tp + fn != 0 else 0

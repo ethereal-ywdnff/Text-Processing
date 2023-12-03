@@ -52,22 +52,8 @@ def compute_tfidf(corpus):
             tfidf[word][idx] = tf_val * idf[word]
     return tfidf
 
-def select_top_n_words(tfidf_scores, n):
-    """
-    Selects the top N words with the highest TF-IDF scores.
 
-    Args:
-    tfidf_scores (dict of dict): TF-IDF scores for each term.
-    n (int): Number of top words to select.
-
-    Returns:
-    set: A set of the top N words.
-    """
-    word_scores = {word: sum(docs.values()) for word, docs in tfidf_scores.items()}
-    sorted_words = sorted(word_scores, key=word_scores.get, reverse=True)
-    return set(sorted_words[:n])
-
-def feature_selection(X, y, n):
+def feature_selection(X):
     """
     Applies TF-IDF based feature selection to the dataset.
 
@@ -79,58 +65,14 @@ def feature_selection(X, y, n):
     list of list of str: The transformed input samples with only the top N words.
     """
     tfidf_scores = compute_tfidf(X)
-    top_words = select_top_n_words(tfidf_scores, n)
-    X_selected = [[word for word in document if word in top_words] for document in X]
+    word_scores = {word: sum(docs.values()) for word, docs in tfidf_scores.items()}
+    sorted_words = sorted(word_scores, key=word_scores.get, reverse=True)
+    X_selected = [[word for word in document if word in sorted_words] for document in X]
     return X_selected
 
 
-# def top_n_words(corpus, n=None):
-#     """
-#     Selects the top N most frequent words in the corpus.
-#
-#     Args:
-#     corpus (list of list of str): The corpus of documents, where each document is represented as a list of words.
-#     n (int, optional): Number of top words to select. If None, selects all words.
-#
-#     Returns:
-#     set: A set of the top N words.
-#     """
-#     word_counts = {}
-#     for document in corpus:
-#         for word in document:
-#             if word not in word_counts:
-#                 word_counts[word] = 0
-#             word_counts[word] += 1
-#
-#     # Sort words by their counts in descending order
-#     sorted_words = sorted(word_counts, key=word_counts.get, reverse=True)
-#
-#     if n is not None:
-#         sorted_words = sorted_words[:n]
-#
-#     return set(sorted_words)
-#
-#
-# def feature_selection(X, y, n=None):
-#     """
-#     Selects features (words) based on their frequency in the corpus.
-#
-#     Args:
-#     X (list of list of str): The training input samples. Each sample is a list of words.
-#     y (list of int): The target values (class labels).
-#     n (int, optional): Number of top words to select. If None, selects all words.
-#
-#     Returns:
-#     list of list of str: The transformed input samples with only the top N words.
-#     """
-#     top_words = top_n_words(X, n)
-#
-#     X_selected = []
-#     for document in X:
-#         doc_selected = [word for word in document if word in top_words]
-#         X_selected.append(doc_selected)
-#
-#     return X_selected
+
+
 
 
 
