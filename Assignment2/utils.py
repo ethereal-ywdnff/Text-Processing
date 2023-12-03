@@ -134,17 +134,3 @@ def map_labels_5_to_3(label):
         return 1
 
 
-def tokenize(text):
-    """
-    Tokenizes a string into words.
-
-    Args:
-    text (str): The text to be tokenized.
-
-    Returns:
-    list of str: A list of words.
-    """
-    # This is a simple tokenization process; consider using more sophisticated methods if necessary
-    return text.split()
-
-# You can add more utility functions as needed for your project
