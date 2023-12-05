@@ -39,7 +39,6 @@ def main():
     if inputs.classes == 3:
         train_data['Sentiment'] = train_data['Sentiment'].apply(map_labels_5_to_3)
 
-
     # print(train_data['Phrase'])
     # Feature selection (if necessary)
     if inputs.features == "features":
@@ -56,6 +55,8 @@ def main():
     # Load, preprocess, and predict on dev set
     dev_data = load_data(dev_file)
     dev_data['Phrase'] = dev_data['Phrase'].apply(preprocess)
+    if inputs.classes == 3:
+        dev_data['Sentiment'] = dev_data['Sentiment'].apply(map_labels_5_to_3)
     if inputs.features == "features":
         X_dev = feature_selection(dev_data['Phrase'])
     else:
