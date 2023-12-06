@@ -12,7 +12,7 @@ from nltk.tokenize import word_tokenize
 # nltk.download('wordnet')
 # nltk.download('stopwords')
 
-def preprocess(text):  # 5 0.336963
+def preprocess(text):
     """
         Preprocess the input text for sentiment analysis.
 
@@ -25,22 +25,23 @@ def preprocess(text):  # 5 0.336963
 
     # Convert to lowercase
     text = text.lower()
+    # text = re.sub(r'[^\w\s]', '', text)
 
     # Tokenization
-    tokens = word_tokenize(text)
+    text = word_tokenize(text)
 
     # Lemmatization
     lemmatizer = WordNetLemmatizer()
-    tokens = [lemmatizer.lemmatize(token) for token in tokens]
+    text = [lemmatizer.lemmatize(token) for token in text]
 
-    # Remove stop words and punctuation (optional: keep punctuation if needed)
+    # Remove stop words and punctuation
     stop_words = set(stopwords.words('english'))
-    tokens = [token for token in tokens if token not in stop_words and token.isalpha()]
+    text = [token for token in text if token not in stop_words and token.isalpha()]
 
     # Reconstruct the text
-    text = ' '.join(tokens)
+    # text = ' '.join(tokens)
 
-    return tokens
+    return text
 
 def load_data(file_path):
     """
@@ -80,18 +81,12 @@ def map_labels_5_to_3(label):
     Maps labels from a 5-value scale to a 3-value scale.
 
     Args:
-    label (int or str): The label on a 5-value scale.
+    label (str): The label on a 5-value scale.
 
     Returns:
-    int or str: The corresponding label on a 3-value scale.
+    int: The corresponding label on a 3-value scale.
     """
-    # if label in ['negative', 'somewhat negative']:
-    #     return 'negative'
-    # elif label in ['somewhat positive', 'positive']:
-    #     return 'positive'
-    # else:
-    #     return 'neutral'
-    # if label in [0, 1]:
+
     if label == 0 or label == 1:
         return 0
     elif label == 3 or label == 4:

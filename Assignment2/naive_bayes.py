@@ -12,8 +12,8 @@ class NaiveBayesClassifier:
         Fit the Naive Bayes classifier according to X, y.
 
         Args:
-        X (list of list of str): The training input samples. Each sample is a list of words.
-        y (list of int): The target values (class labels).
+        X (list of str): The training input samples.
+        y (list of int): labels.
         """
         self.n_classes = np.unique(y)
         # self.log_class_priors = np.zeros(len(self.n_classes), dtype=np.float64)
@@ -45,7 +45,7 @@ class NaiveBayesClassifier:
         Perform classification on an array of test vectors X.
 
         Args:
-        X (list of list of str): The input samples. Each sample is a list of words.
+        X (list of str): The input samples
 
         Returns:
         list of int: The predicted class label for each sample in X.
