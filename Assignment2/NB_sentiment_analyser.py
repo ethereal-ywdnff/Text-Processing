@@ -28,9 +28,9 @@ def main():
     inputs = parse_args()
 
     # Construct file paths
-    train_file = f"moviereviews/{inputs.training}"
-    dev_file = f"moviereviews/{inputs.dev}"
-    test_file = f"moviereviews/{inputs.test}"
+    train_file = inputs.training
+    dev_file = inputs.dev
+    test_file = inputs.test
     # Load and preprocess training data
     train_data = load_data(train_file)
     train_data['Phrase'] = train_data['Phrase'].apply(preprocess)
@@ -42,15 +42,15 @@ def main():
     # print(train_data['Phrase'])
     # Feature selection (if necessary)
     if inputs.features == "features":
-        X_train = feature_selection(train_data['Phrase'])  # Define num_features as needed
-        # print(X_train)
+        train = feature_selection(train_data['Phrase'])
+        # print(train)
     else:
-        X_train = train_data['Phrase']
-        # print(X_train)
+        train = train_data['Phrase']
+        # print(train)
 
     # Initialize and train Naive Bayes Classifier
     nb_classifier = NaiveBayesClassifier()
-    nb_classifier.fit(X_train, train_data['Sentiment'])
+    nb_classifier.fit(train, train_data['Sentiment'])
 
     # Load, preprocess, and predict on dev set
     dev_data = load_data(dev_file)
@@ -58,10 +58,10 @@ def main():
     if inputs.classes == 3:
         dev_data['Sentiment'] = dev_data['Sentiment'].apply(map_labels_5_to_3)
     if inputs.features == "features":
-        X_dev = feature_selection(dev_data['Phrase'])
+        dev = feature_selection(dev_data['Phrase'])
     else:
-        X_dev = dev_data['Phrase']
-    dev_predictions = nb_classifier.predict(X_dev)
+        dev = dev_data['Phrase']
+    dev_predictions = nb_classifier.predict(dev)
     # print(dev_predictions)
 
     test_data = load_data(test_file)
@@ -70,21 +70,20 @@ def main():
 
     # Feature selection (if necessary)
     if inputs.features == "features":
-        X_test = feature_selection(test_data['Phrase'])
+        test = feature_selection(test_data['Phrase'])
     else:
-        X_test = test_data['Phrase']
+        test = test_data['Phrase']
 
-    # Now X_test is ready for making predictions
-    test_predictions = nb_classifier.predict(X_test)
+    test_predictions = nb_classifier.predict(test)
 
     # Evaluate model on dev set
     f1_score = macro_f1_score(dev_data['Sentiment'], dev_predictions, nb_classifier.n_classes)
 
     # Generate and print confusion matrix (if necessary)
     if inputs.confusion_matrix:
-        conf_matrix = generate_confusion_matrix(dev_data['Sentiment'], dev_predictions, nb_classifier.n_classes)
-        print("Confusion Matrix:\n", conf_matrix)
-        plot_confusion_matrix(conf_matrix, nb_classifier.n_classes)
+        confusion_matrix = generate_confusion_matrix(dev_data['Sentiment'], dev_predictions, nb_classifier.n_classes)
+        print("Confusion Matrix:\n", confusion_matrix)
+        plot_confusion_matrix(confusion_matrix, nb_classifier.n_classes)
 
     # Save output files (if necessary)
     if inputs.output_files:
@@ -99,7 +98,7 @@ def main():
             dev_predictions_df.to_csv(dev_predictions_file, sep='\t', index=False)
 
         # if 'SentenceId' in test_data.columns:
-            # test_predictions = nb_classifier.predict(X_test)  # Make sure you have the predictions for test data
+            # test_predictions = nb_classifier.predict(test)  # Make sure you have the predictions for test data
             test_predictions_df = pd.DataFrame({
                 'SentenceId': test_data['SentenceId'],
                 'Sentiment': test_predictions

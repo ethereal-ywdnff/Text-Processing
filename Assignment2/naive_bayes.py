@@ -5,28 +5,28 @@ class NaiveBayesClassifier:
         self.log_class_priors = {}
         self.word_counts = None
         self.vocab = None
-        self.n_classes = None
+        self.n_classes = None  # Store the different types of sentiment present in the training data
 
-    def fit(self, X, y):
+    def fit(self, train_data, sentiment):
         """
-        Fit the Naive Bayes classifier according to X, y.
+        Fit the Naive Bayes classifier according to train_data, sentiment.
 
         Args:
-        X (list of str): The training input samples.
-        y (list of int): labels.
+        train_data (list of str)
+        sentiment (list of int)
         """
-        self.n_classes = np.unique(y)
+        self.n_classes = np.unique(sentiment)
         # self.log_class_priors = np.zeros(len(self.n_classes), dtype=np.float64)
         self.word_counts = {c: {} for c in self.n_classes}
         self.vocab = set()
-        n_samples = len(y)
+        n_samples = len(sentiment)
 
         for c in self.n_classes:
-            X_c = [x for x, label in zip(X, y) if label == c]
-            count = len(X_c)
+            data = [x for x, label in zip(train_data, sentiment) if label == c]
+            count = len(data)
             self.log_class_priors[c] = np.log(count / n_samples)
 
-            for text in X_c:
+            for text in data:
                 for word in text:
                     if word not in self.word_counts[c]:
                         self.word_counts[c][word] = 0
@@ -40,18 +40,18 @@ class NaiveBayesClassifier:
                     (self.word_counts[c].get(word, 0.0) + 1) / (total_count + len(self.vocab))
                 )
 
-    def predict(self, X):
+    def predict(self, data):
         """
         Perform classification on an array of test vectors X.
 
         Args:
-        X (list of str): The input samples
+        data (list of str): The input samples
 
         Returns:
-        list of int: The predicted class label for each sample in X.
+        list of int: The predicted Sentiment for each sample in data.
         """
         results = []
-        for text in X:
+        for text in data:
             class_scores = {c: self.log_class_priors[c] for c in self.n_classes}
             for word in text:
                 if word in self.vocab:

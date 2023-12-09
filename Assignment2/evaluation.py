@@ -3,13 +3,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-def macro_f1_score(y_true, y_pred, classes):
+def macro_f1_score(real_sentiment, pred_sentiment, classes):
     """
     Calculate the macro F1 score.
 
     Args:
-    y_true (list of int): True class labels.
-    y_pred (list of int): Predicted class labels.
+    real_sentiment (list of int): True class labels.
+    pred_sentiment (list of int): Predicted class labels.
     classes (list of int): List of unique class labels.
 
     Returns:
@@ -18,9 +18,9 @@ def macro_f1_score(y_true, y_pred, classes):
     f1_scores = []
 
     for i in classes:
-        tp = sum((y_true == i) & (y_pred == i))
-        fp = sum((y_true != i) & (y_pred == i))
-        fn = sum((y_true == i) & (y_pred != i))
+        tp = sum((real_sentiment == i) & (pred_sentiment == i))
+        fp = sum((real_sentiment != i) & (pred_sentiment == i))
+        fn = sum((real_sentiment == i) & (pred_sentiment != i))
 
         precision = tp / (tp + fp) if tp + fp != 0 else 0
         recall = tp / (tp + fn) if tp + fn != 0 else 0
@@ -31,14 +31,14 @@ def macro_f1_score(y_true, y_pred, classes):
     return np.mean(f1_scores)
 
 
-def generate_confusion_matrix(y_true, y_pred, classes):
+def generate_confusion_matrix(real_sentiment, pred_sentiment, classes):
     """
     Generate a confusion matrix from scratch.
 
     Args:
-    y_true (list of int): True class labels.
+    real_sentiment (list of int): True class labels.
     y_pred (list of int): Predicted class labels.
-    classes (list of int): List of unique class labels.
+    pred_sentiment (list of int): List of unique class labels.
 
     Returns:
     array: Confusion matrix.
@@ -47,24 +47,24 @@ def generate_confusion_matrix(y_true, y_pred, classes):
     matrix_size = len(classes)
     matrix = np.zeros((matrix_size, matrix_size), dtype=int)
 
-    for true, pred in zip(y_true, y_pred):
+    for true, pred in zip(real_sentiment, pred_sentiment):
         if true in class_to_index and pred in class_to_index:
             matrix[class_to_index[true]][class_to_index[pred]] += 1
 
     return matrix
 
 
-def plot_confusion_matrix(matrix, class_labels):
+def plot_confusion_matrix(matrix, classes):
     """
     Plots a confusion matrix using Seaborn's heatmap.
 
     Args:
     matrix (array): The confusion matrix to be plotted.
-    class_labels (list of str): The labels for the classes.
+    class (list of str): The labels for the classes.
     """
-    sns.heatmap(matrix, annot=True, fmt='d', cmap='Blues', xticklabels=class_labels, yticklabels=class_labels)
-    plt.ylabel('True Label')
-    plt.xlabel('Predicted Label')
+    sns.heatmap(matrix, annot=True, fmt='d', cmap='Blues', xticklabels=classes, yticklabels=classes)
+    plt.ylabel('Real Sentiment')
+    plt.xlabel('Predicted Sentiment')
     plt.title('Confusion Matrix')
     plt.show()
 
