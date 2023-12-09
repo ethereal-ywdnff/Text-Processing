@@ -18,6 +18,7 @@ import getopt
 import pickle
 
 from my_retriever import Retrieve
+# from tfidf import Retrieve
 
 #==============================================================================
 # Command line processing
@@ -33,6 +34,7 @@ class CommandLine:
             return
 
         if len(args) > 0:
+            print(1)
             print("*** ERROR: no arg files - only options! ***", file=sys.stderr)
             self.print_help()
             return
@@ -64,7 +66,7 @@ class CommandLine:
             stoplist = 'yes'
         else:
             stoplist = 'no'
-        
+
         if '-p' in opts:
             stemming = 'yes'
         else:
@@ -74,11 +76,23 @@ class CommandLine:
             all_data = pickle.load(data_in)
 
         choice = 'index_stoplist_%s_stemming_%s' % (stoplist, stemming)
-        self.index = all_data[choice]
-            
+        self.index = all_data[choice]  # dict: 全是原型单词 articles --> articl
+        # a = []
+        # b = []
+        # for key, value in list(self.index.items())[1716:1718]:
+            # for i, j in list(value.items()):
+        #         a.append(i)
+        #     b.append(a)
+        #     a = []
+        #     print(len(value))
+        #     print(f"{key}: {value}")
+        #     print(type(value))
+        # print(b)
+
         choice = 'queries_stoplist_%s_stemming_%s' % (stoplist, stemming)
-        self.queries = all_data[choice]
-            
+        self.queries = all_data[choice]  # list: 所有没用的东西都已经被去掉了
+        # print(self.queries[:2])
+
         self.exit = False
 
     def print_help(self):
@@ -117,7 +131,8 @@ if __name__ == '__main__':
     retrieve = Retrieve(config.index, config.term_weighting)
     all_results = Result_Store()
 
-    for (qid, query) in queries:
+    for (qid, query) in queries[:]:
+        # print(f"{qid}: {query}")
         results = retrieve.for_query(query)
         all_results.store(qid, results)
 

@@ -1,36 +1,81 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
+import math
 
-# 你的字典数据
-dictionary = [
-    ('preliminari', {1: 1, 254: 1, 825: 1, 894: 1, 1205: 1, 1235: 1}),  # 字典项1
-    ('report', {1: 1, 65: 1, 146: 1, 147: 1, 196: 1, 254: 1}),  # 字典项2
-    # 其他字典项
-]
 
-# 你的查询列表
-queries = {
-    1: ['articl', 'exist', 'deal', 'tss', 'time', 'share', 'system'],  # 查询1
-    2: ['interest', 'articl', 'written', 'priev', 'udo', 'pooch'],   # 查询2
-    # 其他查询
-}
+class Retrieve:
 
-# 构建TF-IDF模型
-tfidf_vectorizer = TfidfVectorizer()
-tfidf_matrix = tfidf_vectorizer.fit_transform([" ".join(queries[q]) for q in queries])
+    def __init__(self, index, term_weighting):
+        self.index = index
+        self.term_weighting = term_weighting
+        self.doc_ids = set()
+        self.doc_lengths = {}
+        self.compute_documents_info()
 
-# 计算余弦相似度
-cosine_similarities = cosine_similarity(tfidf_matrix, tfidf_vectorizer.transform([" ".join(doc[1].keys()) for doc in dictionary]))
+    def compute_documents_info(self):
+        for term in self.index:
+            for doc_id in self.index[term]:
+                self.doc_ids.add(doc_id)
+                freq = self.index[term][doc_id]
+                if doc_id not in self.doc_lengths:
+                    self.doc_lengths[doc_id] = 0
+                if self.term_weighting == 'binary':
+                    self.doc_lengths[doc_id] += 1
+                elif self.term_weighting == 'tf':
+                    self.doc_lengths[doc_id] += freq
+                elif self.term_weighting == 'tfidf':
+                    doc_freq = len(self.index[term])
+                    idf = math.log(len(self.doc_ids) / doc_freq)
+                    self.doc_lengths[doc_id] += (freq * idf) ** 2
+        for doc_id in self.doc_lengths:
+            self.doc_lengths[doc_id] = math.sqrt(self.doc_lengths[doc_id])
 
-# 找到每个查询的最相似的10个文档
-top_similar_documents = {}
-for query_id, similarity_scores in enumerate(cosine_similarities):
-    top_document_indices = np.argsort(similarity_scores)[::-1][:2]
-    top_similar_documents[query_id] = [(dictionary[i][0], similarity_scores[i]) for i in top_document_indices]
+    def compute_query_weights(self, query):
+        query_weights = {}
+        for term in query:
+            query_weights[term] = query_weights.get(term, 0) + 1
+        if self.term_weighting == 'binary':
+            for term in query_weights:
+                query_weights[term] = 1
+        elif self.term_weighting == 'tfidf':
+            num_docs = len(self.doc_ids)
+            for term in query_weights:
+                if term in self.index:
+                    doc_freq = len(self.index[term])
+                    query_weights[term] = (1 + math.log(query_weights[term])) * math.log(num_docs / doc_freq)
+        return query_weights
 
-# 打印结果
-for query_id, similar_documents in top_similar_documents.items():
-    print(f"Query {query_id}:")
-    for document, similarity_score in similar_documents:
-        print(f"  Document: {document}, Similarity: {similarity_score:.4f}")
+    def compute_term_weight(self, term, doc_id, freq):
+        if self.term_weighting == 'binary':
+            return 1
+        elif self.term_weighting == 'tf':
+            return freq
+        elif self.term_weighting == 'tfidf':
+            num_docs = len(self.doc_ids)
+            doc_freq = len(self.index[term])
+            idf = math.log(num_docs / doc_freq)
+            return freq * idf
+
+    # def using_tf(self, query):
+    #     query_weights = {}
+    #     for term in query:
+    #         query_weights[term] = query_weights.get(term, 0) + 1
+    #     scores = {doc_id: 0 for doc_id in self.doc_ids}
+    #     for term, weight in query_weights.items():
+    #         if term in self.index:
+    #             for doc_id, freq in self.index[term].items():
+    #                 scores[doc_id] += weight * freq
+    #     for doc_id in scores:
+    #         scores[doc_id] /= self.doc_lengths[doc_id]
+    #     return scores
+
+    def for_query(self, query):
+        query_weights = self.compute_query_weights(query)
+        scores = {doc_id: 0 for doc_id in self.doc_ids}
+        for term, weight in query_weights.items():
+            if term in self.index:
+                for doc_id, freq in self.index[term].items():
+                    scores[doc_id] += weight * self.compute_term_weight(term, doc_id, freq)
+        for doc_id in scores:
+            scores[doc_id] /= self.doc_lengths[doc_id]
+        # scores = self.using_tf(query)
+        ranked_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+        return [doc_id for doc_id, _ in ranked_docs]
