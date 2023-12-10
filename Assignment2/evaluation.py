@@ -33,7 +33,7 @@ def macro_f1_score(real_sentiment, pred_sentiment, classes):
 
 def generate_confusion_matrix(real_sentiment, pred_sentiment, classes):
     """
-    Generate a confusion matrix from scratch.
+    Generate a confusion matrix.
 
     Args:
     real_sentiment (list of int): True class labels.

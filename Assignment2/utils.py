@@ -75,7 +75,7 @@ def load_data(file_path):
 #     return text
 
 
-def map_labels_5_to_3(label):
+def map_sentiment_5_to_3(label):
     """
     Maps labels from a 5-value scale to a 3-value scale.
 
