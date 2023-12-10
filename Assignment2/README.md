@@ -11,17 +11,10 @@ This project implements a Naive Bayes classifier for sentiment analysis of movie
   - seaborn to render the confusion matrix
   - matplotlib to plot the confusion matrix
   - nltk to preprocess the 'Phrase'
-
-
-### Installation
-No additional installation is required for standard Python libraries like numpy and pandas. But seaborn and nltk are required to be installed.
-
+- Installation
+  - There is a file named pip ``requirements.txt``, which can be used to install all the needed libraries.
 ```bash
-pip install seaborn
-```
-
-```bash
-pip install nltk
+pip install -r requirements.txt
 ```
 
 
@@ -38,7 +31,7 @@ pip install nltk
 1. ``cd`` into the right folder.
 
 2. Run the model:
-- Results for ***5*** classes and using all ***words*** as feature
+- Results for ***5*** classes and using ***all words*** as feature
 ```bash
 python NB_sentiment_analyser.py train.tsv dev.tsv test.tsv -classes 5 -features all_words
 ```

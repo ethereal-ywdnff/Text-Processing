@@ -1,0 +1,6 @@
+# these are the needed libraries
+numpy
+pandas
+seaborn
+matplotlib
+nltk
