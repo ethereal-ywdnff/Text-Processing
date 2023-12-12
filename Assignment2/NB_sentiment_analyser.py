@@ -40,7 +40,7 @@ def main():
     # print(train_data['Phrase'])
     # Feature selection (if necessary)
     if inputs.features == "features":
-        train = feature_selection(train_data['Phrase'])
+        train = feature_selection(train_data['Phrase'], inputs.classes)
         # print(train)
     else:
         train = train_data['Phrase']
@@ -56,7 +56,7 @@ def main():
     if inputs.classes == 3:
         dev_data['Sentiment'] = dev_data['Sentiment'].apply(map_sentiment_5_to_3)
     if inputs.features == "features":
-        dev = feature_selection(dev_data['Phrase'])
+        dev = feature_selection(dev_data['Phrase'], inputs.classes)
     else:
         dev = dev_data['Phrase']
     dev_predictions = nb_classifier.predict(dev)
@@ -65,10 +65,9 @@ def main():
     test_data = load_data(test_file)
     test_data['Phrase'] = test_data['Phrase'].apply(preprocess)
 
-
     # Feature selection (if necessary)
     if inputs.features == "features":
-        test = feature_selection(test_data['Phrase'])
+        test = feature_selection(test_data['Phrase'], inputs.classes)
     else:
         test = test_data['Phrase']
 
@@ -89,6 +88,7 @@ def main():
     if inputs.output_files:
         dev_predictions_df = pd.DataFrame({
             'SentenceId': dev_data['SentenceId'],
+            # 'Phrase': dev,
             'Sentiment': dev_predictions
         })
 

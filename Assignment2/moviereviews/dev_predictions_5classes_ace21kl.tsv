@@ -1,10 +1,10 @@
 SentenceId	Phrase	Sentiment
-7971	['irritates', 'saddens', 'martin', 'lawrence', 'latest', 'vehicle', 'explode', 'obnoxiously', 'screen', 'something', 'bubba', 'clearly', 'evident', 'quality', 'may', 'end', 'languishing', 'shelf', 'somewhere']	1
+7971	['irritates', 'saddens', 'martin', 'lawrence', 'latest', 'vehicle', 'explode', 'obnoxiously', 'screen', 'something', 'bubba', 'clearly', 'evident', 'quality', 'end', 'languishing', 'shelf', 'somewhere']	1
 2912	['watt', 'lend', 'credibility', 'strange', 'scenario', 'presence', 'succeeds', 'making', 'u', 'believe']	3
-1152	['would', 'unendurable', 'viewing', 'experience', 'new', 'yorker', 'reese', 'witherspoon', 'hand', 'inject', 'pure', 'fantasy', 'character', 'melanie', 'carmichael', 'massive', 'infusion', 'hollywood', 'magic']	3
+1152	['unendurable', 'viewing', 'experience', 'new', 'yorker', 'reese', 'witherspoon', 'hand', 'inject', 'pure', 'fantasy', 'character', 'melanie', 'carmichael', 'massive', 'infusion', 'hollywood', 'magic']	4
 4551	['welcome', 'lack', 'pretension', 'film', 'simply', 'set', 'entertain', 'end', 'delivering', 'good', 'measure']	3
 5809	['slapstick', 'labored', 'bigger', 'setpieces', 'flat']	1
-4967	['may', 'undeserving', 'victim', 'critical', 'overkill', 'since', 'town', 'country']	1
+4967	['undeserving', 'victim', 'critical', 'overkill', 'since', 'town', 'country']	1
 6540	['powder', 'blue', 'white', 'tunis', 'make', 'alluring', 'backdrop', 'sensuous', 'spirited', 'tale', 'prim', 'widow', 'find', 'unlikely', 'release', 'club']	4
 3790	['maintains', 'sympathy', 'otherwise', 'challenging', 'soul', 'letting', 'share', 'world']	3
 2165	['time', 'spend', 'people', 'never', 'really', 'get', 'inside']	1
@@ -12,7 +12,7 @@ SentenceId	Phrase	Sentiment
 3555	['already', 'thin', 'story', 'boil', 'surviving', 'invader', 'seeking', 'existent']	1
 1207	['absurdity']	1
 1243	['boast', 'art', 'direction', 'ha', 'forcefully', 'quirky', 'tone', 'quickly', 'wear', 'limited', 'welcome']	1
-5980	['frei', 'give', 'u', 'man', 'us', 'damage', 'war', 'far', 'often', 'warfare', 'create', 'kind', 'art', 'shot', 'fill', 'gallery', 'show']	3
+5980	['frei', 'give', 'u', 'man', 'damage', 'war', 'far', 'often', 'warfare', 'create', 'kind', 'art', 'shot', 'fill', 'gallery', 'show']	3
 2322	['plain', 'silly']	2
 6808	['bille', 'august', 'depicts', 'relationship', 'economical', 'grace', 'letting', 'superb', 'actor', 'convey', 'martin', 'deterioration', 'barbara', 'sadness', 'occasionally', 'anger']	3
 5700	['messy', 'uncouth', 'incomprehensible', 'vicious', 'absurd']	2
@@ -27,7 +27,7 @@ SentenceId	Phrase	Sentiment
 3830	['dark', 'tragic', 'let', 'business', 'greedy', 'talent', 'agent', 'get', 'way', 'saying', 'something', 'meaningful', 'facing', 'death']	3
 5760	['start', 'witty', 'sophisticated', 'want', 'love', 'filmmaker', 'yvan', 'attal', 'quickly', 'writes', 'corner']	3
 2833	['whether', 'art', 'imitating', 'life', 'life', 'imitating', 'art', 'unhappy', 'situation', 'around']	3
-7771	['midnight', 'movie', 'probably', 'wo', 'stand', 'cold', 'light', 'day', 'right', 'condition', 'goofy', 'entirely', 'wholesome', 'fun']	3
+7771	['midnight', 'movie', 'probably', 'stand', 'cold', 'light', 'day', 'right', 'condition', 'goofy', 'entirely', 'wholesome', 'fun']	3
 1069	['blue', 'crush', 'predictable', 'tide']	1
 6038	['cruelly', 'funny', 'twist', 'teen', 'comedy', 'packed', 'inventive', 'cinematic', 'trick', 'ironically', 'killer', 'soundtrack']	3
 1940	['analyze', 'prof', 'really', 'one', 'movie', 'worth', 'decent', 'gag', 'gleaned', 'premise']	2
@@ -55,7 +55,7 @@ SentenceId	Phrase	Sentiment
 2271	['pacing', 'deadly', 'narration', 'help', 'little', 'naipaul', 'juicy', 'writer', 'negated']	3
 6663	['ha', 'mark', 'septuagenarian', 'crusty', 'treatment', 'clever', 'gimmick']	3
 4493	['nohe', 'documentary', 'event', 'sympathetic', 'without', 'gullible', 'blind', 'silliness', 'also', 'capture', 'moment', 'spontaneous', 'creativity', 'authentic', 'interaction']	3
-4241	['bread', 'sweet', 'ha', 'many', 'flaw', 'would', 'easy', 'critic', 'shred']	2
+4241	['bread', 'sweet', 'ha', 'many', 'flaw', 'easy', 'critic', 'shred']	2
 2017	['forgiven', 'realizing', 'spent', 'past', 'minute', 'looking', 'watch', 'waiting', 'frida', 'die', 'already']	1
 1683	['represents', 'worthy', 'departure', 'culture', 'clash', 'comedy', 'marked', 'emerging', 'indian', 'american', 'cinema']	3
 8153	['still', 'adam', 'sandler', 'little', 'nicky']	1
@@ -75,12 +75,12 @@ SentenceId	Phrase	Sentiment
 1757	['exactly', 'expect', 'guy', 'named', 'kaos']	1
 5369	['audience', 'advised', 'sit', 'near', 'back', 'squint', 'avoid', 'noticing', 'truly', 'egregious', 'otherwise', 'production', 'suitably', 'elegant']	1
 955	['enthusiastically', 'invokes', 'percussion', 'rhythm', 'brass', 'soul', 'sense', 'fierce', 'competition', 'help', 'make', 'great', 'marching', 'band', 'half', 'fun', 'college', 'football', 'game']	3
-4338	['diane', 'lane', 'sophisticated', 'performance', 'ca', 'rescue', 'adrian', 'lyne', 'unfaithful', 'sleazy', 'moralizing']	4
+4338	['diane', 'lane', 'sophisticated', 'performance', 'rescue', 'adrian', 'lyne', 'unfaithful', 'sleazy', 'moralizing']	4
 849	['blushing', 'gushing', 'imamura', 'squirt', 'screen', 'warm', 'water', 'red', 'bridge']	3
 5486	['despite', 'film', 'essentially', 'juiceless']	1
 4620	['awful', 'recent', 'hollywood', 'trip', 'tripe', 'far', 'groundbreaking', 'endeavor']	1
 210	['depressing', 'ruthlessly', 'pained', 'depraved', 'movie', 'equivalent', 'staring', 'open', 'wound']	0
-2037	['date', 'movie', 'franz', 'kafka', 'would', 'made']	1
+2037	['date', 'movie', 'franz', 'kafka', 'made']	1
 7481	['steven', 'spielberg', 'brings', 'u', 'another', 'masterpiece']	3
 7029	['stiflingly', 'unfunny', 'unoriginal', 'mess']	0
 8242	['hoffman', 'quirk', 'mannerism', 'particularly', 'penchant', 'tearing', 'cue', 'thing', 'seem', 'real', 'small', 'dos', 'become', 'annoying', 'artificial']	1
@@ -97,7 +97,7 @@ SentenceId	Phrase	Sentiment
 3620	['ensemble', 'cast', 'turn', 'collectively', 'stellar', 'performance', 'writing', 'tight', 'truthful', 'full', 'funny', 'situation', 'honest', 'observation']	3
 5870	['poorly', 'executed', 'comedy']	0
 6295	['best', 'herzog', 'perhaps', 'unmistakably', 'herzog']	1
-7461	['gifted', 'crudup', 'ha', 'perfect', 'face', 'play', 'handsome', 'blank', 'yearning', 'find', 'cipherlike', 'personality', 'bad', 'behavior', 'would', 'play', 'fine', 'movie', 'knew']	1
+7461	['gifted', 'crudup', 'ha', 'perfect', 'face', 'play', 'handsome', 'blank', 'yearning', 'find', 'cipherlike', 'personality', 'bad', 'behavior', 'play', 'fine', 'movie', 'knew']	1
 4014	['mcgrath', 'ha', 'deftly', 'trimmed', 'dickens', 'wonderfully', 'sprawling', 'soap', 'opera', 'better', 'focus', 'hero', 'odyssey', 'cowering', 'poverty', 'courage', 'happiness']	4
 936	['chris', 'columbus', 'sequel', 'faster', 'livelier', 'good', 'deal', 'funnier', 'original']	1
 4415	['bedeviled', 'labored', 'writing', 'slack', 'direction']	0
@@ -109,13 +109,13 @@ SentenceId	Phrase	Sentiment
 6541	['amazing', 'film', 'work', 'convincing', 'movie', 'end', 'swear', 'wet', 'place', 'feel', 'sand', 'creeping', 'others']	3
 8154	['sorvino', 'delightful', 'central', 'role']	3
 7815	['like', 'movie', 'pitfall', 'bad', 'behavior', 'circuit', 'get', 'drawn', 'party']	1
-5304	['implication', 'kissinger', 'may', 'decided', 'come', 'truncheoning', 'better', 'give', 'receive']	1
+5304	['implication', 'kissinger', 'decided', 'come', 'truncheoning', 'better', 'give', 'receive']	1
 1464	['insomnia', 'doe', 'become', 'one', 'rare', 'remake', 'eclipse', 'original', 'doe', 'disgrace', 'either']	1
 1059	['new', 'insomnia', 'surprisingly', 'faithful', 'remake', 'chilly', 'predecessor', 'doe', 'elect', 'head', 'direction', 'employ', 'change', 'fit', 'well', 'rather', 'one', 'imposed', 'sake', 'commercial', 'sensibility']	1
 3209	['triumph', 'love', 'silly', 'movie', 'silliness', 'ha', 'pedigree']	1
-4158	['simply', 'ca', 'recommend', 'enough']	1
+4158	['simply', 'recommend', 'enough']	1
 4279	['like', 'predecessor', 'classic', 'provides', 'reasonably', 'attractive', 'holiday', 'contraption', 'one', 'family', 'looking', 'clean', 'outing', 'investigate']	3
-4169	['like', 'christmas', 'movie', 'elf', 'snow', 'le', 'pimp', 'ho']	1
+4169	['like', 'christmas', 'movie', 'snow', 'le', 'pimp', 'ho']	1
 7246	['bursting', 'constraint', 'source', 'one', 'adapted', 'movie', 'actually', 'look', 'belongs', 'big', 'screen']	3
 2964	['fluid', 'motion', 'astounding', 'number', 'level']	2
 4262	['small', 'independent', 'film', 'suffering', 'severe', 'case']	3
@@ -129,10 +129,10 @@ SentenceId	Phrase	Sentiment
 8222	['guard']	3
 4724	['morrissette', 'ha', 'performed', 'difficult', 'task', 'indeed', 'taken', 'one', 'world', 'fascinating', 'story', 'made', 'dull', 'lifeless', 'irritating']	2
 253	['scare', 'mood', 'ominous', 'pervasive', 'unknown', 'threat', 'lurks', 'proceeding', 'add', 'almost', 'constant', 'mindset', 'suspense']	3
-4543	['summer', 'entertainment', 'adult', 'see', 'without', 'feeling', 'embarrassed', 'could']	3
+4543	['summer', 'entertainment', 'adult', 'see', 'without', 'feeling', 'embarrassed']	3
 6893	['story', 'unrequited', 'love', 'doe', 'sustain', 'interest', 'beyond', 'first']	1
 3136	['path', 'ice', 'age', 'follows', 'closely', 'though', 'one', 'established', 'warner', 'giant', 'chuck', 'jones', 'died', 'matter', 'week', 'movie', 'release']	2
-5292	['aggressively', 'cheery', 'pollyana', 'would', 'reach', 'barf', 'bag']	1
+5292	['aggressively', 'cheery', 'pollyana', 'reach', 'barf', 'bag']	1
 1995	['empty', 'purposeless', 'exercise']	1
 5386	['footage', 'new', 'thriller', 'prof', 'director', 'night', 'shyamalan', 'weave', 'eerie', 'spell', 'mel', 'gibson', 'gasp', 'shudder', 'even', 'tremble', 'without', 'losing', 'machismo']	3
 2642	['without', 'fresh', 'infusion', 'creativity', 'neither', 'promise', 'threat', 'much', 'wishful', 'thinking']	1
@@ -151,10 +151,10 @@ SentenceId	Phrase	Sentiment
 5075	['boring', 'masquerade', 'ball', 'normally', 'good', 'actor', 'even', 'kingsley', 'made', 'look', 'bad']	1
 2585	['lesson', 'prehistoric', 'hilarity']	3
 7277	['reason', 'halftime', 'fifteen', 'minute', 'long']	1
-7485	['city', 'sea', 'gritty', 'police', 'thriller', 'dysfunctional', 'family', 'dynamic', 'one', 'could', 'wish']	3
+7485	['city', 'sea', 'gritty', 'police', 'thriller', 'dysfunctional', 'family', 'dynamic', 'one', 'wish']	3
 3522	['awful', 'snooze']	0
-5947	['work', 'whodunit', 'level', 'larger', 'theme', 'get', 'lost', 'murk', 'making']	3
-4134	['something', 'must', 'lost', 'translation']	0
+5947	['work', 'level', 'larger', 'theme', 'get', 'lost', 'murk', 'making']	3
+4134	['something', 'lost', 'translation']	1
 7714	['country', 'bear', 'ha', 'scene', 'upset', 'frighten', 'young', 'viewer']	1
 688	['woven', 'together', 'handsomely', 'recalling', 'sixty', 'rockumentary', 'milestone', 'lonely', 'boy', 'look', 'back']	3
 2214	['likeable', 'thanks', 'cast', 'cuisine', 'quirky', 'tune']	4
@@ -165,7 +165,7 @@ SentenceId	Phrase	Sentiment
 446	['family', 'film', 'award', 'animal', 'respect', 'rarely', 'given']	3
 205	['storytelling', 'feel', 'slight']	3
 3946	['schmidt', 'nicholson', 'walk', 'slow', 'deliberate', 'gait', 'chooses', 'word', 'carefully', 'subdues', 'natural', 'exuberance']	4
-3099	['enactment', 'however', 'fascinating', 'may', 'history', 'crude', 'serve', 'work', 'especially', 'well']	3
+3099	['enactment', 'however', 'fascinating', 'history', 'crude', 'serve', 'work', 'especially', 'well']	3
 4177	['modern', 'remake', 'duma', 'story', 'long', 'narrative', 'short', 'action']	1
 7869	['even', 'climactic', 'hourlong', 'cricket', 'match', 'boredom', 'never', 'take', 'hold']	1
 2022	['suffice', 'say', 'total', 'promise', 'left', 'slightly', 'unfulfilled']	2
@@ -175,11 +175,11 @@ SentenceId	Phrase	Sentiment
 4086	['kudos', 'enchanting', 'film', 'year']	4
 6166	['turturro', 'fabulously', 'funny', 'top', 'sneaky', 'butler', 'excels', 'art', 'impossible', 'act']	3
 351	['idea', 'white', 'man', 'arriving', 'foreign', 'shore', 'show', 'wary', 'native', 'true', 'light', 'abhorrent', 'simplistic', 'heaven', 'quite', 'likely', 'like', 'hell']	2
-5350	['sorry', 'say', 'seal', 'deal', 'arnold', 'back']	3
+5350	['sorry', 'say', 'seal', 'deal', 'arnold']	3
 8095	['however', 'completely', 'honest', 'film', 'appeal', 'anyone', 'willing', 'succumb']	3
 5711	['fascinating', 'unnerving', 'examination', 'delusion', 'one', 'unstable', 'man']	3
 166	['kim', 'seems', 'mind', 'emotionally', 'least', 'adolescent', 'audience', 'demanding', 'regular', 'shock', 'bout', 'barely', 'defensible', 'sexual', 'violence', 'keep', 'interested']	3
-6111	['go', 'theater', 'expecting', 'scary', 'chiller', 'might', 'soon', 'looking', 'sign']	1
+6111	['go', 'theater', 'expecting', 'scary', 'chiller', 'soon', 'looking', 'sign']	1
 783	['disney', 'aficionado', 'notice', 'distinct', 'parallel', 'story', 'musical', 'bedknobs', 'broomstick', 'also', 'dealt', 'british', 'child', 'rediscovering', 'power', 'fantasy', 'wartime']	3
 7206	['photographic', 'marvel', 'sort', 'certainly', 'invaluable', 'record', 'special', 'fishy', 'community']	4
 659	['word', 'badder', 'bad']	0
@@ -188,22 +188,22 @@ SentenceId	Phrase	Sentiment
 7123	['schepisi', 'aided', 'cast', 'seems', 'include', 'every', 'british', 'actor', 'appear', 'gosford', 'park', 'well', 'one', 'mirren', 'ha', 'succeeded', 'beyond', 'expectation']	3
 3526	['film', 'ha', 'terrific', 'look', 'salma', 'hayek', 'ha', 'feel', 'character', 'stage', 'life']	3
 3344	['odd', 'show', 'pregnant', 'mood', 'stillborn', 'except', 'harsh', 'conceptual', 'exercise']	1
-3044	['soderbergh', 'seems', 'capable', 'delivering', 'artfully', 'lighted', 'earnest', 'inquiry', 'lack', 'kind', 'genuine', 'depth', 'would', 'make', 'redeemable']	3
+3044	['soderbergh', 'seems', 'capable', 'delivering', 'artfully', 'lighted', 'earnest', 'inquiry', 'lack', 'kind', 'genuine', 'depth', 'make', 'redeemable']	3
 4630	['plain', 'boring']	1
 2171	['allen', 'execution', 'date', 'close', 'documentary', 'give', 'especially', 'poignant', 'portrait', 'friendship', 'never', 'flagging', 'legal', 'investigator', 'david', 'presson']	3
 3979	['script', 'wa', 'reportedly', 'rewritten', 'dozen', 'time', 'either', 'time', 'many', 'else']	1
 978	['emperor', 'club', 'ruthless', 'placid', 'way', 'find', 'one', 'conservative', 'hidebound', 'tradition', 'give', 'new', 'texture', 'new', 'relevance', 'new', 'reality']	3
 1097	['sheer', 'joy', 'pride', 'took', 'work', 'shine', 'every', 'frame']	4
 1468	['minute', 'zing', 'along', 'vibrance', 'warmth']	1
-6055	['forget', 'psychology', 'study', 'romantic', 'obsession', 'watch', 'procession', 'costume', 'castle', 'wo', 'seem', 'like', 'bore']	1
+6055	['forget', 'psychology', 'study', 'romantic', 'obsession', 'watch', 'procession', 'costume', 'castle', 'seem', 'like', 'bore']	1
 2237	['chicken', 'heart', 'crush', 'go', 'absurd', 'length', 'duck', 'issue', 'raise']	3
 7740	['come', 'learn', 'many', 'time', 'finger', 'count', 'jason', 'killer', 'doe', 'know', 'meaning', 'word', 'quit']	3
 5010	['much', 'lady', 'duke', 'quiet', 'decisive', 'moment', 'member', 'cultural', 'elite', 'determine', 'proceed', 'world', 'implodes']	3
-3735	['adolescent', 'adequately', 'served', 'movie', 'sophomoric', 'blend', 'shenanigan', 'slapstick', 'although', 'might', 'disappointed', 'relative', 'modesty', 'movie', 'sport', 'topless', 'tutorial', 'service']	3
+3735	['adolescent', 'adequately', 'served', 'movie', 'sophomoric', 'blend', 'shenanigan', 'slapstick', 'although', 'disappointed', 'relative', 'modesty', 'movie', 'sport', 'topless', 'tutorial', 'service']	3
 6579	['weird', 'arresting', 'little', 'ride']	3
 486	['pile', 'useless', 'actioners', 'mtv', 'schmuck', 'know', 'tell', 'story', 'four', 'minute']	1
 6857	['cantet', 'beautifully', 'illuminates', 'mean', 'sometimes', 'inside', 'looking', 'time', 'outside', 'looking']	3
-4406	['film', 'wa', 'produced', 'jerry', 'bruckheimer', 'directed', 'joel', 'schumacher', 'reflects', 'worst', 'shallow', 'style', 'wildly', 'overproduced', 'inadequately', 'motivated', 'every', 'step', 'way', 'demographically', 'targeted', 'please', 'every', 'one', 'one']	0
+4406	['film', 'wa', 'produced', 'jerry', 'bruckheimer', 'directed', 'joel', 'schumacher', 'reflects', 'worst', 'shallow', 'style', 'wildly', 'overproduced', 'inadequately', 'motivated', 'every', 'step', 'way', 'demographically', 'targeted', 'please', 'every', 'one', 'one']	1
 3612	['cast', 'ha', 'high', 'time', 'de', 'broca', 'ha', 'little', 'enthusiasm', 'antique', 'pulp']	3
 2807	['easy', 'film']	3
 5820	['script', 'david', 'koepp', 'perfectly', 'serviceable', 'give', 'story', 'soul', 'elevates', 'experience', 'mythic', 'level']	4
@@ -219,7 +219,7 @@ SentenceId	Phrase	Sentiment
 3950	['cipher', 'played', 'actress', 'smile', 'frown', 'doe', 'reveal', 'inner', 'life']	3
 2333	['even', 'worst']	0
 2044	['intriguing', 'look', 'french', 'film', 'industry', 'german', 'occupation', 'delightful', 'moment', 'come', 'various', 'character', 'express', 'quirky', 'inner', 'self']	3
-10	['could', 'hate', 'reason']	1
+10	['hate', 'reason']	1
 5331	['pile']	1
 4629	['generic', 'family', 'comedy', 'unlikely', 'appreciated', 'anyone', 'outside', 'set']	2
 1231	['certainly', 'good', 'movie', 'wa', 'horrible', 'either']	2
@@ -229,24 +229,24 @@ SentenceId	Phrase	Sentiment
 294	['austin', 'power', 'goldmember', 'ha', 'right', 'stuff', 'silly', 'summer', 'entertainment', 'ha', 'enough', 'laugh', 'sustain', 'interest', 'end']	1
 6832	['tired', 'unimaginative', 'derivative', 'variation', 'genre']	0
 5473	['splendidly', 'illustrates', 'ability', 'human', 'spirit', 'overcome', 'adversity']	4
-3513	['may', 'real', 'laugh']	3
+3513	['real', 'laugh']	1
 3427	['movie', 'sends', 'theater', 'feeling', 'like', 'actually', 'spent', 'time', 'living', 'another', 'community']	1
 6601	['although', 'purportedly', 'study', 'modern', 'alienation', 'really', 'little', 'particularly', 'slanted', 'gay', 'fantasy', 'enervating', 'deadeningly']	3
 5219	['overall', 'cletis', 'tout', 'winning', 'comedy', 'excites', 'imagination', 'tickle', 'funny', 'bone']	2
 7946	['cage', 'make', 'unusual', 'pleasantly', 'haunting', 'debut', 'behind', 'camera']	2
-7876	['faithful', 'enjoy', 'sometimes', 'wry', 'adaptation', 'naipaul', 'novel', 'newcomer', 'may', 'find', 'stifling', 'yawn', 'two', 'first', 'hour']	3
-840	['behind', 'music', 'special', 'ha', 'something', 'little', 'special', 'behind', 'music', 'sell', 'many', 'record', 'helped', 'change', 'nation']	1
-7394	['would', 'take', 'complete', 'moron', 'foul', 'screen', 'adaptation', 'oscar', 'wilde', 'classic', 'satire']	1
+7876	['faithful', 'enjoy', 'sometimes', 'wry', 'adaptation', 'naipaul', 'novel', 'newcomer', 'find', 'stifling', 'two', 'first', 'hour']	3
+840	['behind', 'music', 'special', 'ha', 'something', 'little', 'special', 'behind', 'music', 'sell', 'many', 'record', 'helped', 'change', 'nation']	3
+7394	['take', 'complete', 'moron', 'foul', 'screen', 'adaptation', 'oscar', 'wilde', 'classic', 'satire']	4
 2560	['visually', 'captivating']	4
 5842	['chirpy', 'songbird', 'britney', 'spear', 'ha', 'popped', 'mindless', 'drivel']	1
 2955	['movie', 'slide', 'downhill', 'soon', 'macho', 'action', 'convention', 'assert']	1
 5518	['crummy']	0
 4965	['pumpkin', 'strut', 'courage', 'pinned', 'huckster', 'lapel', 'yellow', 'streak', 'mile', 'wide', 'decorates', 'back']	2
 7118	['thriller']	3
-793	['sentimental', 'resolution', 'explains', 'way', 'cal', 'doe', 'movie', 'character', 'good', 'freundlich', 'world', 'traveler', 'might', 'one', 'daring', 'surprising', 'american', 'movie', 'year']	1
+793	['sentimental', 'resolution', 'explains', 'way', 'cal', 'doe', 'movie', 'character', 'good', 'freundlich', 'world', 'traveler', 'one', 'daring', 'surprising', 'american', 'movie', 'year']	1
 4852	['event', 'film', 'weird', 'honestly', 'never', 'knew', 'hell', 'wa', 'coming', 'next']	1
 3025	['one', 'baaaaaaaaad', 'movie']	1
-852	['dylan', 'thomas', 'alive', 'witness', 'director', 'ethan', 'hawke', 'strained', 'chelsea', 'wall', 'might', 'tempted', 'change', 'landmark', 'poem', 'go', 'gentle', 'good', 'theatre']	1
+852	['dylan', 'thomas', 'alive', 'witness', 'director', 'ethan', 'hawke', 'strained', 'chelsea', 'wall', 'tempted', 'change', 'landmark', 'poem', 'go', 'gentle', 'good', 'theatre']	3
 7547	['although', 'idea', 'new', 'result', 'tired']	1
 2026	['odd', 'drama', 'set', 'world', 'lingerie', 'model', 'bar', 'dancer', 'midwest', 'held', 'interest', 'precisely', 'try']	1
 4537	['problem', 'movie', 'ha', 'idea', 'serious']	1
@@ -258,9 +258,9 @@ SentenceId	Phrase	Sentiment
 1369	['personally', 'rather', 'watch', 'animal', 'planet']	0
 1726	['even', 'naipaul', 'original', 'remains', 'real', 'masterpiece', 'movie', 'posse', 'languorous', 'charm']	3
 5088	['wonderful', 'sobering', 'drama']	3
-3162	['transgressive', 'trapping', 'especially', 'frank', 'sex', 'scene', 'ensure', 'film', 'never', 'dull', 'rodrigues', 'metaphor', 'ultimately', 'rather', 'silly', 'overwrought', 'making', 'ambiguous', 'ending', 'seem', 'goofy', 'rather', 'provocative']	1
+3162	['transgressive', 'trapping', 'especially', 'frank', 'sex', 'scene', 'ensure', 'film', 'never', 'dull', 'rodrigues', 'metaphor', 'ultimately', 'rather', 'silly', 'making', 'ambiguous', 'ending', 'seem', 'goofy', 'rather', 'provocative']	1
 8170	['snipe', 'snore', 'utter', 'tripe']	3
-3473	['digital', 'effect', 'reminded', 'terry', 'gilliam', 'rudimentary', 'old', 'monty', 'python', 'cartoon', 'would', 'cut', 'figure', 'drawing', 'photograph', 'paste', 'together']	1
+3473	['digital', 'effect', 'reminded', 'terry', 'gilliam', 'rudimentary', 'old', 'monty', 'python', 'cartoon', 'cut', 'figure', 'drawing', 'photograph', 'paste', 'together']	1
 4690	['home', 'run', 'least', 'solid', 'base', 'hit']	3
 2247	['movie', 'feel', 'stitched', 'together', 'stock', 'situation', 'character', 'movie']	1
 2392	['terrible']	0
@@ -280,13 +280,13 @@ SentenceId	Phrase	Sentiment
 3980	['great', 'american', 'comedy', 'liked', 'previous', 'movie', 'series', 'good', 'time', 'one']	3
 2477	['showtime', 'particularly', 'assaultive', 'still', 'make', 'feel', 'never', 'want', 'see', 'another', 'car', 'chase', 'explosion', 'gunfight']	1
 3118	['script']	1
-6171	['always', 'appreciated', 'smartly', 'written', 'motion', 'picture', 'whatever', 'flaw', 'igby', 'go', 'may', 'posse', 'undeniably']	3
+6171	['always', 'appreciated', 'smartly', 'written', 'motion', 'picture', 'flaw', 'igby', 'go', 'posse', 'undeniably']	3
 6834	['bit', 'eager', 'please']	3
 7789	['likable', 'story', 'told', 'competence']	3
 3318	['ringu', 'disaster', 'story', 'full', 'hole', 'completely', 'lacking', 'chill']	1
 5152	['bluto', 'blutarsky', 'miss']	1
 3798	['bean', 'drop', 'ball', 'many', 'time', 'hoping', 'nifty', 'premise', 'create', 'enough', 'interest', 'make', 'unfocused', 'screenplay']	2
-8368	['collection', 'whatever', 'fill', 'time', 'unified', 'whole']	0
+8368	['collection', 'fill', 'time', 'unified', 'whole']	0
 1660	['despite', 'promising', 'cast', 'character', 'big', 'trouble', 'remains', 'loosely', 'tied', 'series', 'vignette', 'prove', 'zany', 'doe', 'necessarily', 'mean', 'funny']	1
 2072	['appropriately', 'cynical', 'social', 'commentary', 'aside', 'never', 'quite', 'ignites']	1
 4450	['hugh', 'grant', 'act', 'consuming', 'sometimes', 'difficult', 'tell', 'actor', 'movie']	1
@@ -294,20 +294,20 @@ SentenceId	Phrase	Sentiment
 6397	['ha', 'share', 'arresting', 'image']	3
 3788	['time', 'existential', 'drama', 'without', 'pretension', 'associated', 'term']	3
 7493	['sweetest', 'thing', 'leaf', 'awful', 'sour', 'taste']	0
-629	['although', 'subject', 'matter', 'may', 'still', 'close', 'recent', 'national', 'event', 'film', 'work', 'mostly', 'due', 'superior', 'cast', 'character']	3
+629	['although', 'subject', 'matter', 'still', 'close', 'recent', 'national', 'event', 'film', 'work', 'mostly', 'due', 'superior', 'cast', 'character']	1
 6364	['undeniable', 'enjoyment', 'film', 'crammed', 'movie', 'reference', 'fun', 'wear', 'thin', 'nothing', 'else', 'happening']	1
 8027	['questioning', 'election', 'process', 'payami', 'graphically', 'illustrates', 'problem', 'fledgling', 'democracy', 'also', 'strength', 'sense', 'freedom', 'iranian', 'people', 'already', 'posse', 'without', 'access', 'ballot', 'box']	3
 1839	['biopic', 'crane', 'life', 'classic', 'tradition', 'evolves', 'ha', 'become', 'u', 'era', 'video']	3
 4998	['walter', 'hill', 'david', 'giler', 'try', 'create', 'character', 'obvious', 'cliche', 'wind', 'using', 'punching', 'bag']	1
-2597	['would', 'benigni', 'italian', 'pinocchio', 'easier', 'sit', 'hastily', 'dubbed', 'disaster']	1
+2597	['benigni', 'italian', 'pinocchio', 'easier', 'sit', 'hastily', 'dubbed', 'disaster']	1
 3299	['work', 'actor', 'particularly', 'impressive']	3
-7608	['reign', 'fire', 'might', 'go', 'one', 'great', 'apocalypse', 'movie']	1
+7608	['reign', 'fire', 'go', 'one', 'great', 'apocalypse', 'movie']	1
 3996	['mostly', 'fluff', 'seems', 'intended']	1
 199	['superior', 'horror', 'flick']	1
 3989	['family', 'togetherness', 'take', 'back', 'seat', 'rivalry', 'workplace', 'ambition', 'whole', 'subplots', 'explanation', 'even', 'plot', 'relevance']	1
 3518	['skirmish', 'power', 'waged', 'among', 'victim', 'predator', 'settle', 'undistinguished', 'rhythm', 'artificial', 'suspense']	3
-6771	['burst', 'color', 'music', 'dance', 'practiced', 'curmudgeon', 'could', 'fail', 'crack', 'smile']	4
-1668	['lush', 'beautifully', 'photographed', 'somebody', 'suggested', 'still', 'might', 'make', 'nice', 'coffee', 'table', 'book', 'ultimately', 'leave', 'theater', 'wondering', 'people', 'mattered']	3
+6771	['burst', 'color', 'music', 'dance', 'practiced', 'curmudgeon', 'fail', 'crack', 'smile']	4
+1668	['lush', 'beautifully', 'photographed', 'somebody', 'suggested', 'still', 'make', 'nice', 'coffee', 'table', 'book', 'ultimately', 'leave', 'theater', 'wondering', 'people', 'mattered']	3
 3456	['happily', 'stay', 'close', 'ground', 'spare', 'simple', 'manner', 'doe', 'pummel', 'u', 'phony', 'imagery', 'music']	3
 7725	['performance', 'overstated', 'effect', 'come']	1
 4286	['rymer', 'doe', 'trust', 'laugh', 'doe', 'conjure', 'proper', 'respect', 'follower', 'whole', 'genre', 'deserve', 'vampire', 'pic', 'shrieky', 'special', 'effect']	1
@@ -335,18 +335,18 @@ SentenceId	Phrase	Sentiment
 1222	['addicted', 'film', 'violence', 'form', 'find', 'anything', 'appreciate']	4
 2666	['wa']	1
 597	['difference', 'truly', 'enjoyed', 'mostly', 'martha', 'ne']	3
-5166	['whether', 'buy', 'broomfield', 'finding', 'film', 'acquires', 'undeniable', 'entertainment', 'value', 'slight', 'pale', 'broomfield', 'continues', 'force', 'people', 'situation', 'would', 'make', 'lesser', 'men', 'run', 'cover']	3
-6603	['vision', 'awkward', 'age', 'sex', 'threatens', 'overwhelm', 'everything', 'else', 'acute', 'enough', 'make', 'everyone', 'ha', 'squirm', 'recognition']	1
+5166	['whether', 'buy', 'broomfield', 'finding', 'film', 'acquires', 'undeniable', 'entertainment', 'value', 'slight', 'pale', 'broomfield', 'continues', 'force', 'people', 'situation', 'make', 'lesser', 'men', 'run', 'cover']	3
+6603	['vision', 'awkward', 'age', 'sex', 'threatens', 'everything', 'else', 'acute', 'enough', 'make', 'everyone', 'ha', 'squirm', 'recognition']	1
 8026	['stress', 'dumb']	1
 1923	['leaf', 'u', 'wondering', 'le', 'idea', 'characterization', 'hitler', 'contrived', 'nature', 'provocative', 'conclusion']	1
-4872	['thoroughly', 'entertaining', 'comedy', 'us', 'grant', 'twist', 'acidity', 'prevent', 'succumbing', 'bathos']	3
+4872	['thoroughly', 'entertaining', 'comedy', 'grant', 'twist', 'acidity', 'prevent', 'succumbing', 'bathos']	3
 6905	['hanukkah', 'spirit', 'seems', 'fried', 'pork']	3
 6456	['bogdanich', 'unashamedly', 'make', 'little', 'attempt', 'give', 'voice', 'side']	3
 7128	['dull', 'somnambulant', 'exercise', 'pretension', 'whose', 'pervasive', 'quiet', 'broken', 'frequent', 'outburst', 'violence', 'noise']	1
 4496	['familiar', 'basically', 'sort', 'cautionary', 'tale', 'wa', 'old', 'angel', 'dirty', 'face', 'appeared']	3
 335	['cast', 'delivers', 'without', 'sham', 'story']	3
 1220	['movie', 'certain', 'scene', 'particular', 'brought', 'uncomfortably', 'close', 'losing', 'lunch']	2
-3776	['stealing', 'harvard', 'ca', 'even', 'much']	0
+3776	['stealing', 'harvard', 'even', 'much']	0
 1149	['elegantly', 'produced', 'expressively', 'performed', 'six', 'musical', 'number', 'crystallize', 'key', 'plot', 'moment', 'minutely', 'detailed', 'wonder', 'dreamlike', 'ecstasy']	2
 2076	['although', 'barbershop', 'boast', 'today', 'hottest', 'hippest', 'act', 'world', 'television', 'music', 'comedy', 'movie', 'strangely', 'enough', 'ha', 'outdated', 'swagger', 'shameless', 'blaxploitation', 'sitcom']	1
 1116	['labute', 'masterfully', 'balance', 'traditional', 'modern', 'story', 'together', 'manner', 'one', 'never', 'overwhelms']	3
@@ -362,7 +362,7 @@ SentenceId	Phrase	Sentiment
 2445	['ai', 'art', 'long', 'shot', 'unlike', 'last', 'year', 'lame', 'musketeer', 'duma', 'adaptation', 'entertains']	0
 2655	['saw', 'enjoyed']	2
 7480	['possibly', 'irresponsible', 'picture', 'ever', 'released', 'major', 'film', 'studio']	1
-3891	['end', 'sort', 'loved', 'people', 'onscreen', 'even', 'though', 'could', 'stand']	2
+3891	['end', 'sort', 'loved', 'people', 'onscreen', 'even', 'though', 'stand']	2
 6436	['kapur', 'contradictory', 'feeling', 'material', 'result', 'movie', 'work']	1
 6117	['lack', 'dramatic', 'punch', 'depth']	1
 4320	['following', 'thing', 'entertaining', 'bad', 'sound', 'lack', 'climax', 'worst', 'watching', 'seinfeld', 'also', 'one', 'film', 'producer', 'everything', 'look', 'like', 'good', 'guy']	1
@@ -370,7 +370,7 @@ SentenceId	Phrase	Sentiment
 5886	['begin', 'high', 'note', 'sustains', 'beautifully']	3
 1394	['story', 'like', 'ravel', 'bolero', 'build', 'crescendo', 'encompasses', 'many', 'path', 'started']	3
 7370	['respectable', 'venture', 'term', 'lacking', 'broader', 'vision', 'ha', 'seen', 'certain', 'trek', 'film', 'cross', 'mainstream', 'audience']	1
-709	['jones', 'make', 'great', 'impression', 'little', 'million', 'charmer', 'may', 'indie', 'filmmaking', 'ha', 'huge', 'heart']	3
+709	['jones', 'make', 'great', 'impression', 'little', 'million', 'charmer', 'indie', 'filmmaking', 'ha', 'huge', 'heart']	3
 1322	['taste', 'fizz']	0
 7671	['even', 'invincible', 'quite', 'career', 'peak', 'pianist', 'roman', 'polanski', 'demonstrates', 'werner', 'herzog', 'still', 'leave', 'u', 'sense', 'wonder', 'diverse', 'marvelously', 'twisted', 'shape', 'history', 'ha', 'taken']	4
 1524	['doe', 'reach', 'effort', 'gratefully', 'received']	3
@@ -378,7 +378,7 @@ SentenceId	Phrase	Sentiment
 2752	['sexy', 'beast', 'gloriously', 'flippant', 'lock', 'stock', 'two', 'smoking', 'barrel', 'stylish', 'moody', 'exceptionally']	4
 3824	['expected', 'college', 'comedy', 'target', 'audience', 'ha', 'graduated', 'junior', 'high', 'school']	1
 8171	['troubling', 'thing', 'clockstoppers', 'doe', 'make', 'sense']	1
-6319	['may', 'somewhat', 'backhanded', 'compliment', 'say', 'film', 'make', 'viewer', 'feel', 'like', 'movie', 'various', 'victimized', 'audience', 'member', 'also', 'happens', 'movie', 'admirable', 'quality']	2
+6319	['somewhat', 'backhanded', 'compliment', 'say', 'film', 'make', 'viewer', 'feel', 'like', 'movie', 'various', 'victimized', 'audience', 'member', 'also', 'happens', 'movie', 'admirable', 'quality']	2
 881	['pitiful', 'slapdash', 'disaster']	1
 6990	['film', 'aaliyah', 'get', 'minute', 'screen', 'time']	1
 2913	['noyce', 'greatest', 'mistake', 'thinking', 'needed', 'sweeping', 'dramatic', 'hollywood', 'moment', 'keep', 'u']	2
@@ -387,7 +387,7 @@ SentenceId	Phrase	Sentiment
 8163	['turn', 'pretentious', 'fascinating', 'ludicrous', 'provocative', 'vainglorious']	3
 4607	['maryam', 'small', 'film', 'offer', 'large', 'reward']	3
 1117	['perry', 'good', 'interesting', 'character', 'serving', 'sara', 'ha', 'much', 'serve', 'silly', 'fluff']	1
-4130	['incoherent', 'jumble', 'film', 'rarely', 'entertaining', 'could']	1
+4130	['incoherent', 'jumble', 'film', 'rarely', 'entertaining']	1
 2819	['attack', 'audience', 'patience']	3
 2892	['bored', 'cage', 'spent', 'duration', 'film', 'shooting', 'schedule', 'waiting', 'scream', 'got', 'aid', 'yet']	1
 6236	['jackass', 'vulgar', 'version', 'candid', 'camera', 'staged', 'marquis', 'de', 'sade', 'set']	3
@@ -403,7 +403,7 @@ SentenceId	Phrase	Sentiment
 639	['filmmaker', 'eye', 'detail', 'high', 'standard', 'performance', 'convey', 'strong', 'sense', 'girl', 'environment']	3
 3404	['nettelbeck', 'ha', 'crafted', 'engaging', 'fantasy', 'flavour', 'emotion', 'one', 'part', 'romance', 'novel', 'one', 'part', 'recipe', 'book']	3
 233	['lackadaisical', 'plotting', 'mindless', 'action', 'benjamin', 'evokes', 'bottom', 'tier', 'blaxploitation', 'flick']	1
-4835	['dream', 'smart', 'comedy', 'would', 'come', 'along', 'rescue', 'summer', 'codswallop', 'name', 'wa', 'earnest']	1
+4835	['dream', 'smart', 'comedy', 'come', 'along', 'rescue', 'summer', 'codswallop', 'name', 'wa', 'earnest']	1
 5284	['got', 'pretentious', 'moment', 'entirely', 'grab', 'stuff', 'like']	1
 8008	['little', 'violence', 'lot', 'sex', 'bid', 'hold', 'attention', 'grows', 'monotonous', 'joan', 'philip', 'repetitive', 'argument', 'scheme', 'treachery']	2
 564	['evokes', 'frustration', 'awkwardness', 'euphoria', 'growing', 'without', 'relying', 'usual', 'trope']	3
@@ -411,17 +411,17 @@ SentenceId	Phrase	Sentiment
 7767	['effort', 'watch', 'movie', 'eventually', 'pay', 'effective', 'stick']	0
 3668	['eastwood', 'wince', 'clutch', 'chest', 'gasp', 'breath']	4
 2775	['entire', 'movie', 'establishes', 'wonderfully', 'creepy', 'mood']	3
-5125	['many', 'parent', 'teen', 'preteen', 'kid', 'could', 'bond', 'watching', 'walk', 'remember']	3
+5125	['many', 'parent', 'teen', 'preteen', 'kid', 'bond', 'watching', 'walk', 'remember']	3
 4054	['leave', 'feeling', 'like', 'endured', 'long', 'workout', 'without', 'pulse', 'ever', 'racing']	3
 6933	['end', 'film', 'le', 'cheap', 'thriller', 'expect', 'fairly', 'revealing', 'study', 'two', 'main', 'character', 'people', 'whose', 'orbit', 'inevitably', 'dangerously', 'collide']	3
 5121	['trying', 'make', 'head', 'tail', 'story', 'indie', 'snipe', 'enough', 'give', 'brain', 'strain', 'negligible']	3
-1180	['wow', 'knew', 'charles', 'dickens', 'could']	4
+1180	['wow', 'knew', 'charles', 'dickens']	4
 6409	['shame', 'stealing', 'harvard', 'busy', 'getting', 'way', 'anything', 'frustrating', 'boring', 'forgettable']	0
 4492	['strike', 'yang', 'similarly', 'themed', 'yi', 'yi', 'found', 'time']	3
 1786	['despite', 'lagging', 'near', 'finish', 'line', 'movie', 'run', 'good', 'race', 'one', 'edge', 'seat', 'long', 'stretch']	1
 3590	['relentless', 'bombastic', 'ultimately', 'empty', 'world', 'war', 'ii', 'action', 'flick']	1
 6305	['witty', 'contemplative', 'sublimely', 'beautiful']	4
-8402	['good', 'documentary', 'make', 'interesting', 'subject', 'thought', 'would', 'leave', 'cold']	2
+8402	['good', 'documentary', 'make', 'interesting', 'subject', 'thought', 'leave', 'cold']	2
 8515	['kind', 'movie', 'aside', 'robert', 'altman', 'spike', 'lee', 'coen', 'brother', 'others', 'moviemakers', 'make', 'often', 'enough']	3
 1109	['mildly', 'curious', 'fear', 'put', 'sleep', 'bewildered', 'artsy', 'often', 'pointless', 'visuals']	1
 7105	['wonder', 'wonder', 'teen', 'movie', 'humanistic', 'message']	2
@@ -439,7 +439,7 @@ SentenceId	Phrase	Sentiment
 2600	['good', 'good', 'rest', 'run', 'mildly', 'unimpressive', 'despairingly', 'awful']	1
 2573	['expect', 'major', 'discovery', 'stylish', 'sizzle', 'film', 'sits', 'square', 'conviction', 'touching', 'good', 'sense', 'experience', 'woman']	3
 5794	['unfortunately', 'prefer', 'simple', 'misfire']	0
-3975	['yet', 'another', 'overwritten', 'story', 'bunch', 'character', 'team', 'ca', 'miss', 'heist', 'go', 'wrong']	1
+3975	['yet', 'another', 'overwritten', 'story', 'bunch', 'character', 'team', 'miss', 'heist', 'go', 'wrong']	1
 3999	['call', 'curmudgeon', 'able', 'enjoy', 'mindless', 'action', 'movie', 'believe', 'movie', 'mindless', 'without', 'peak', 'thing', 'insipid']	1
 2663	['depressingly', 'retrograde', 'romantic', 'comedy', 'take', 'astonishingly', 'condescending', 'attitude', 'toward', 'woman']	3
 8387	['director', 'tom', 'shadyac', 'star', 'kevin', 'costner', 'glumly', 'mishandle', 'story', 'promising', 'premise', 'physician', 'need', 'heal']	1
@@ -449,17 +449,17 @@ SentenceId	Phrase	Sentiment
 4330	['hackneyed', 'story', 'affluent', 'damsel', 'distress', 'decides', 'fight', 'bully', 'husband', 'simply', 'overdone']	1
 990	['good', 'see', 'michael', 'caine', 'whipping', 'dirty', 'word', 'punching', 'people', 'stomach']	3
 6301	['movie', 'bad', 'quickly', 'enters', 'pantheon', 'wreckage', 'includes', 'battlefield', 'earth', 'showgirl']	1
-5041	['true', 'title', 'trap', 'audience', 'series', 'relentlessly', 'nasty', 'situation', 'would', 'pay', 'considerable', 'ransom', 'looking']	1
+5041	['true', 'title', 'trap', 'audience', 'series', 'relentlessly', 'nasty', 'situation', 'pay', 'considerable', 'ransom', 'looking']	1
 2739	['ha', 'solid', 'emotional', 'impact']	3
 7859	['despite', 'hole', 'story', 'somewhat', 'predictable', 'plot', 'moment', 'movie', 'caused', 'jump', 'chair']	1
-1599	['may', 'feel', 'compelled', 'watch', 'film', 'twice', 'pick', 'book', 'subject']	2
+1599	['feel', 'compelled', 'watch', 'film', 'twice', 'pick', 'book', 'subject']	2
 8093	['modestly', 'made', 'profoundly', 'moving', 'documentary']	4
 2419	['familiar', 'tale', 'one', 'told', 'countless', 'filmmaker', 'italian', 'chinese', 'irish', 'latin', 'indian', 'russian', 'hyphenate', 'american', 'young', 'men', 'struggling', 'balance', 'conflicting', 'cultural', 'message']	3
 6425	['used', 'say', 'movie', 'sign', 'tribute', 'shyamalan', 'gift', 'keep', 'watching', 'sky', 'next', 'project']	1
 763	['fessenden', 'narrative', 'much', 'ownership', 'redefinition', 'myth', 'domestic', 'unit', 'finding', 'way', 'joy']	1
 1692	['worst', 'film', 'year']	0
-4792	['might', 'exhilarating', 'exploration', 'odd', 'love', 'triangle', 'becomes', 'sprawl', 'uncoordinated', 'vector']	1
-8327	['glib', 'bouncy', 'bit', 'slickness', 'hero', 'might', 'wind', 'caught', 'audience', 'get', 'pure', 'escapism']	1
+4792	['exhilarating', 'exploration', 'odd', 'love', 'triangle', 'becomes', 'sprawl', 'uncoordinated', 'vector']	3
+8327	['glib', 'bouncy', 'bit', 'slickness', 'hero', 'wind', 'caught', 'audience', 'get', 'pure', 'escapism']	1
 4541	['thoroughly', 'awful']	0
 1362	['formuliac', 'fun']	3
 4779	['feel', 'good', 'feel', 'sad', 'feel', 'pissed', 'end', 'feel', 'alive']	1
@@ -473,7 +473,7 @@ SentenceId	Phrase	Sentiment
 8376	['smart', 'little', 'indie']	3
 4263	['much', 'successful', 'translation', 'famous', 'previous', 'film', 'adaptation', 'anthony', 'friedman', 'similarly', 'updated', 'british', 'production']	3
 7754	['bisset', 'delivers', 'game', 'performance', 'unable', 'save', 'movie']	3
-7684	['three', 'hour', 'little', 'story', 'character', 'development', 'plenty', 'room', 'editing', 'much', 'shorter', 'cut', 'surely', 'would', 'resulted', 'smoother', 'focused', 'narrative', 'without', 'sacrificing', 'cultural', 'intrigue']	3
+7684	['three', 'hour', 'little', 'story', 'character', 'development', 'plenty', 'room', 'editing', 'much', 'shorter', 'cut', 'surely', 'resulted', 'smoother', 'focused', 'narrative', 'without', 'sacrificing', 'cultural', 'intrigue']	3
 2836	['tends', 'plod']	1
 7411	['wanted']	2
 5402	['consistently', 'funny', 'austin', 'power', 'film']	3
@@ -486,27 +486,27 @@ SentenceId	Phrase	Sentiment
 6340	['bright', 'inventive', 'thoroughly', 'winning', 'flight', 'revisionist', 'fancy']	4
 5683	['leave', 'french', 'truly', 'capture', 'terrifying', 'angst', 'modern', 'working', 'man', 'without', 'turning', 'film', 'cheap', 'thriller', 'dumb', 'comedy', 'sappy', 'melodrama']	3
 7058	['tuxedo', 'miscalculates', 'badly', 'forcing', 'star', 'play', 'second', 'fiddle', 'dull', 'effect', 'allow', 'suit', 'come', 'life']	1
-1535	['another', 'long', 'line', 'war', 'movie', 'one', 'quite', 'could', 'film', 'story', 'theme', 'make']	1
+1535	['another', 'long', 'line', 'war', 'movie', 'one', 'quite', 'film', 'story', 'theme', 'make']	1
 3169	['sluggish', 'tonally', 'uneven']	1
 842	['took', 'three', 'minute', 'dialogue', 'second', 'plot', 'turned', 'movie', 'feel', 'five', 'hour', 'long']	0
 5109	['go', 'straight', 'video']	1
 2532	['ozpetek', 'offer', 'aid', 'subtext', 'skim', 'reality', 'gay', 'sex', 'present', 'yet', 'another', 'tired', 'old', 'vision', 'gay', 'community', 'world', 'uptight', 'middle', 'class', 'bore', 'like', 'antonia', 'feel', 'good']	1
 4311	['particularly', 'well', 'made', 'since', 'found', 'howling', 'cringing', 'say', 'film', 'work']	3
-7021	['soderbergh', 'like', 'kubrick', 'may', 'touch', 'planet', 'skin', 'understands', 'working', 'spirit']	3
+7021	['soderbergh', 'like', 'kubrick', 'touch', 'planet', 'skin', 'understands', 'working', 'spirit']	3
 3409	['sad', 'aristocrat', 'tattered', 'finery', 'film', 'seems', 'deflated', 'doe']	1
 6781	['stale', 'overused', 'cocktail', 'using', 'olive', 'since', 'garnish']	1
 7323	['vampire', 'damned', 'queen', 'damned', 'viewer', 'feel', 'suffer', 'fate']	1
 1826	['stretched', 'barely', 'feature', 'length', 'little', 'attention', 'paid', 'animation']	1
 3310	['extremely', 'bad']	0
 7045	['best', 'thing', 'said', 'picture', 'doe', 'cute', 'moment']	3
-3245	['without', 'ballast', 'tank', 'sink', 'harrison', 'ford', 'low']	0
+3245	['without', 'ballast', 'tank', 'sink', 'harrison', 'ford', 'low']	1
 4026	['recovers']	3
 4237	['pure', 'intention', 'passably', 'diverting', 'secret', 'life', 'light', 'innocuous', 'unremarkable']	2
 7650	['hardly', 'necessary', 'enterprise']	1
 1539	['way', 'home', 'ode', 'unconditional', 'love', 'compassion', 'garnered', 'year', 'seeing', 'condition', 'old', 'privy', 'often', 'misconstrued', 'weakness']	3
 7628	['authentic', 'time', 'endearing', 'humorous', 'spooky', 'educational', 'time', 'bland', 'block', 'snow']	1
 4244	['minute', 'movie', 'short', 'feel', 'much', 'longer']	1
-5584	['play', 'like', 'badly', 'edited', 'trailer', 'director', 'ca', 'seem', 'get', 'coherent', 'rhythm', 'going']	1
+5584	['play', 'like', 'badly', 'edited', 'trailer', 'director', 'seem', 'get', 'coherent', 'rhythm', 'going']	1
 3184	['ha', 'complexity', 'realistic', 'human', 'behavior', 'episode', 'general', 'hospital']	4
 3952	['far', 'heaven', 'dazzling', 'conceptual', 'feat', 'work', 'enthralling', 'drama']	4
 4844	['bad', 'company', 'ha', 'one', 'moronic', 'screenplay', 'year', 'full', 'hole', 'obvious', 'even', 'looking']	1
@@ -525,7 +525,7 @@ SentenceId	Phrase	Sentiment
 1926	['hateful']	3
 4693	['get', 'enjoyable', 'basic', 'minimum']	2
 7062	['character', 'paper', 'thin', 'plot', 'cliched', 'contrived', 'make', 'least', 'favorite', 'james', 'bond', 'movie', 'seem', 'cleverly', 'plotted', 'usual', 'suspect']	1
-3086	['fessenden', 'continues', 'interesting', 'work', 'would', 'nice', 'see', 'could', 'make', 'decent', 'budget']	3
+3086	['fessenden', 'continues', 'interesting', 'work', 'nice', 'see', 'make', 'decent', 'budget']	3
 1410	['birot', 'creates', 'drama', 'sense', 'place', 'age', 'year', 'old', 'torment', 'angst', 'become', 'almost', 'operatic', 'u', 'character']	3
 3176	['hartley', 'add', 'enough', 'quirky', 'satirical', 'touch', 'screenplay', 'keep', 'film', 'entertaining']	3
 1122	['hopkins', 'doe', 'much', 'phone', 'performance', 'fax']	2
@@ -554,7 +554,7 @@ SentenceId	Phrase	Sentiment
 7732	['every', 'note', 'ring', 'false']	3
 466	['get', 'better', 'foster', 'leaf', 'little', 'room']	1
 2613	['john', 'carpenter', 'original', 'sure', 'lot', 'smarter', 'unnerving', 'sequel']	3
-1229	['heist', 'flick', 'young', 'brooklyn', 'hood', 'shelf', 'two', 'year', 'capitalize', 'popularity', 'vin', 'diesel', 'seth', 'green', 'barry', 'pepper']	3
+1229	['heist', 'flick', 'young', 'brooklyn', 'hood', 'two', 'year', 'capitalize', 'popularity', 'vin', 'diesel', 'seth', 'green', 'barry', 'pepper']	3
 8436	['romanek', 'keep', 'adding', 'flourish', 'artsy', 'fantasy', 'sequence', 'simply', 'feel', 'wrong']	1
 2383	['rollicking', 'ride', 'action', 'sequence', 'striking', 'villain', 'gorgeous', 'color', 'palette', 'astounding', 'technology', 'stirring', 'music', 'boffo', 'last', 'hour', 'lead', 'strangely', 'sinister', 'happy', 'ending']	4
 265	['fact', 'even', 'better']	1
@@ -571,7 +571,7 @@ SentenceId	Phrase	Sentiment
 2753	['killing', 'time', 'going']	3
 2834	['like', 'veteran', 'head', 'cutter', 'barbershop', 'tuned', 'community']	3
 8358	['solemn', 'pretension', 'prevents', 'u', 'sharing', 'awe', 'hold']	3
-2319	['methodical', 'measured', 'gently', 'tedious', 'comedy', 'secret', 'ballot', 'purposefully', 'reductive', 'movie', 'may', 'successful', 'lodging', 'brain']	3
+2319	['methodical', 'measured', 'gently', 'tedious', 'comedy', 'secret', 'ballot', 'purposefully', 'reductive', 'movie', 'successful', 'lodging', 'brain']	3
 3769	['movie', 'feel', 'like', 'cry', 'attention', 'attempt', 'kind', 'satisfying', 'entertainment']	1
 5890	['begin', 'brightly', 'get', 'bogged', 'minute']	2
 131	['everyone', 'involved', 'seems', 'coasting']	1
@@ -613,16 +613,16 @@ SentenceId	Phrase	Sentiment
 6930	['director', 'kevin', 'bray', 'excels', 'breaking', 'glass', 'marking', 'miami', 'vice', 'checklist', 'power', 'boat', 'latin', 'music', 'dog', 'track']	2
 4469	['people', 'jessica', 'recognizable', 'true', 'real', 'life', 'never', 'sure', 'thing', 'work']	3
 6658	['put', 'refreshing', 'comical', 'spin', 'saga', 'contemporary', 'single', 'woman']	3
-8508	['exciting', 'exoticism', 'might', 'sound', 'typical', 'pax', 'viewer', 'rest', 'u', 'lulled', 'coma']	1
-4632	['parker', 'catherine', 'di', 'napoli', 'faithful', 'melville', 'plotline', 'fully', 'engaged', 'supporting', 'cast', 'made', 'old', 'boy', 'character', 'english', 'lit', 'major', 'would', 'thought', 'possible']	2
+8508	['exciting', 'exoticism', 'sound', 'typical', 'pax', 'viewer', 'rest', 'u', 'lulled', 'coma']	1
+4632	['parker', 'catherine', 'di', 'napoli', 'faithful', 'melville', 'plotline', 'fully', 'engaged', 'supporting', 'cast', 'made', 'old', 'boy', 'character', 'english', 'lit', 'major', 'thought', 'possible']	2
 7290	['perhaps', 'since', 'nelson', 'eddy', 'crooned', 'indian', 'love', 'call', 'jeanette', 'macdonald', 'ha', 'movie', 'unabashedly', 'canadian', 'afraid', 'risk', 'american', 'scorn', 'disinterest']	4
-3104	['might', 'easier', 'watch', 'video', 'home', 'stop', 'french', 'film', 'connoisseur', 'going', 'enjoying', 'experience']	3
+3104	['easier', 'watch', 'video', 'home', 'stop', 'french', 'film', 'connoisseur', 'going', 'enjoying', 'experience']	3
 5497	['come', 'alive', 'switch', 'gear', 'sentimental']	1
 7219	['rote', 'exercise', 'animation', 'storytelling']	1
 8304	['journalistically', 'dubious', 'inept', 'often', 'lethally', 'dull']	1
 4317	['depraved', 'incoherent', 'instantly', 'disposable', 'piece', 'hackery']	0
-4654	['warned', 'may', 'feel', 'time', 'ha', 'decided', 'stand', 'still']	2
-642	['enough', 'may', 'pander', 'basest', 'desire', 'payback', 'unlike', 'many', 'revenge', 'fantasy', 'ultimately', 'delivers']	2
+4654	['warned', 'feel', 'time', 'ha', 'decided', 'stand', 'still']	2
+642	['enough', 'pander', 'basest', 'desire', 'payback', 'unlike', 'many', 'revenge', 'fantasy', 'ultimately', 'delivers']	2
 2549	['redeems', 'film', 'cast', 'particularly']	3
 645	['vivid', 'thoughtful', 'unapologetically', 'raw', 'tale', 'full', 'sex', 'drug', 'rock', 'roll']	4
 7872	['meant', 'star', 'war', 'fan']	1
@@ -643,7 +643,7 @@ SentenceId	Phrase	Sentiment
 1213	['problem', 'bread', 'sweet', 'far', 'sentimental']	1
 4699	['beavis', 'butthead', 'yet', 'always', 'seems', 'elicit', 'chuckle']	2
 8416	['gondry', 'direction', 'adequate', 'give', 'human', 'nature', 'unique', 'feel', 'kaufman', 'script']	3
-1172	['hard', 'understand', 'anyone', 'right', 'mind', 'would', 'even', 'think', 'make', 'attraction', 'movie']	1
+1172	['hard', 'understand', 'anyone', 'right', 'mind', 'even', 'think', 'make', 'attraction', 'movie']	1
 390	['town', 'ha', 'kind', 'authentic', 'feel', 'one', 'people', 'stand', 'everybody', 'else', 'background', 'seems', 'manufactured', 'artificial']	1
 4588	['win', 'vote', 'enemy', 'cinema', 'award']	3
 8236	['mothman', 'prophecy', 'best', 'illustrating', 'demon', 'bedevilling', 'modern', 'masculine', 'journey']	3
@@ -652,12 +652,12 @@ SentenceId	Phrase	Sentiment
 272	['first', 'minute', 'worth', 'seeing']	2
 2709	['find', 'wishing', 'another', 'movie']	1
 1597	['wes', 'craven', 'presence', 'felt', 'craven', 'nightmare', 'elm', 'street', 'hill', 'eye', 'sad', 'schlock', 'merchant', 'deadly', 'friend']	1
-4487	['seagal', 'strenuous', 'attempt', 'change', 'expression', 'could', 'well', 'clinch', 'year', 'razzie']	1
+4487	['seagal', 'strenuous', 'attempt', 'change', 'expression', 'well', 'clinch', 'year', 'razzie']	1
 3377	['brainy', 'artistic', 'muted', 'almost', 'point', 'suffocation']	2
 4788	['enigma', 'kind', 'engaging', 'historical', 'drama', 'hollywood', 'appears', 'given', 'favor', 'sentimental', 'war', 'movie', 'vein', 'soldier']	1
-4790	['movie', 'ca', 'get', 'sufficient', 'distance', 'leroy', 'delusion', 'escape', 'maudlin', 'influence']	1
+4790	['movie', 'get', 'sufficient', 'distance', 'leroy', 'delusion', 'escape', 'maudlin', 'influence']	1
 5434	['moving', 'infrequently', 'breathtaking', 'film']	4
-2006	['empire', 'ca', 'make', 'mind', 'whether', 'want', 'gangster', 'flick', 'art', 'film']	3
+2006	['empire', 'make', 'mind', 'whether', 'want', 'gangster', 'flick', 'art', 'film']	3
 318	['happy', 'heady', 'jumble', 'thought', 'storytelling', 'insane', 'comic', 'undertaking', 'ultimately', 'coheres', 'sane', 'breathtakingly', 'creative', 'film']	3
 7207	['hashiguchi', 'cover', 'territory', 'wit', 'originality', 'suggesting', 'fourth', 'feature', 'first', 'released', 'major', 'director', 'emerging', 'world', 'cinema']	4
 287	['rather', 'movie']	1
@@ -681,7 +681,7 @@ SentenceId	Phrase	Sentiment
 7592	['beneath', 'film', 'obvious', 'determination', 'shock', 'cost', 'lie', 'considerable', 'skill', 'determination', 'backed', 'sheer', 'nerve']	2
 6362	['ha', 'moment', 'ultimately', 'curmudgeon', 'doe', 'quite', 'make', 'cut', 'placed', 'list', 'favorite']	3
 6510	['last', 'scene', 'film', 'anguished', 'bitter', 'truthful']	2
-4456	['overstuffed', 'undernourished', 'film', 'ca', 'called', 'solid', 'success', 'although', 'plenty', 'evidence', 'indicate', 'clooney', 'might', 'better', 'luck', 'next', 'time']	3
+4456	['overstuffed', 'undernourished', 'film', 'called', 'solid', 'success', 'although', 'plenty', 'evidence', 'indicate', 'clooney', 'better', 'luck', 'next', 'time']	3
 334	['leigh', 'one', 'rare', 'director', 'feel', 'acting', 'heart', 'soul', 'cinema']	3
 5747	['overall', 'pretty', 'mediocre', 'family', 'film']	2
 6155	['kind', 'entertainment', 'parent', 'love', 'kid', 'see']	3
@@ -691,18 +691,18 @@ SentenceId	Phrase	Sentiment
 4962	['likely', 'scratching', 'head', 'hiding', 'seat']	0
 784	['guy', 'seem', 'great', 'knock', 'back', 'beer', 'simply', 'funny', 'performer']	1
 3932	['gorgeous', 'film', 'vivid', 'color', 'music', 'life']	4
-5405	['compelling', 'yarn', 'quite', 'ripping', 'one']	4
-6787	['legendary', 'shlockmeister', 'ed', 'wood', 'ever', 'made', 'movie', 'vampire', 'probably', 'would', 'look', 'lot', 'like', 'alarming', 'production', 'adapted', 'anne', 'rice', 'novel', 'vampire', 'chronicle']	2
+5405	['compelling', 'quite', 'ripping', 'one']	4
+6787	['legendary', 'shlockmeister', 'ed', 'wood', 'ever', 'made', 'movie', 'vampire', 'probably', 'look', 'lot', 'like', 'alarming', 'production', 'adapted', 'anne', 'rice', 'novel', 'vampire', 'chronicle']	2
 7578	['dull', 'surreal', 'ache', 'mortal', 'awareness', 'emerges', 'radiant', 'character', 'portrait']	4
 1169	['sparkling', 'often', 'hilarious', 'romantic', 'jealousy', 'comedy', 'attal', 'look', 'much', 'like', 'young', 'robert', 'deniro', 'seems', 'film', 'instead', 'called', 'husband', 'travis', 'bickle']	3
 2242	['already', 'many', 'film']	1
 86	['written', 'flatly', 'david', 'kendall', 'directed', 'barely', 'something', 'mary', 'ed', 'decter']	0
 1638	['plodding', 'teen', 'remake', 'mechanical', 'smell', 'grease', 'plot', 'twist']	1
 1773	['best', 'star', 'trek', 'movie', 'long', 'time']	1
-152	['scientific', 'law', 'discerned', 'producer', 'would', 'well', 'heed', 'mediocre', 'movie', 'start', 'drag', 'soon', 'action', 'speed', 'explosion', 'start', 'fall', 'piece']	1
+152	['scientific', 'law', 'discerned', 'producer', 'well', 'heed', 'mediocre', 'movie', 'start', 'drag', 'soon', 'action', 'speed', 'explosion', 'start', 'fall', 'piece']	1
 7230	['worthy', 'gong']	3
 1743	['problem', 'neither', 'original', 'presented', 'convincing', 'way']	1
-5020	['johnnie', 'wai', 'ka', 'fai', 'sure', 'find', 'enthusiastic', 'audience', 'among', 'american', 'buff', 'film', 'interest', 'may', 'narrow', 'attract', 'crossover', 'viewer']	3
+5020	['johnnie', 'wai', 'ka', 'fai', 'sure', 'find', 'enthusiastic', 'audience', 'among', 'american', 'buff', 'film', 'interest', 'narrow', 'attract', 'crossover', 'viewer']	3
 4544	['intimate', 'panoramic']	4
 4075	['fault', 'antwone', 'fisher', 'manages', 'dubious', 'feat', 'turning', 'one', 'man', 'triumph', 'everyman', 'romance', 'comedy']	3
 6837	['determination', 'pinochet', 'victim', 'seek', 'justice', 'often', 'heartbreaking', 'testimony', 'spoken', 'directly', 'director', 'patricio', 'guzman', 'camera', 'pack', 'powerful', 'emotional', 'wallop']	3
@@ -713,21 +713,21 @@ SentenceId	Phrase	Sentiment
 1194	['bigelow', 'handle', 'nuclear', 'crisis', 'sequence', 'evenly', 'milk', 'drama', 'building', 'suspense', 'drag', 'many', 'scene', 'toward', 'end', 'move', 'quickly']	1
 5619	['pleasing', 'comedy']	3
 5690	['painting', 'unabashedly', 'romantic', 'picture', 'nation', 'whose', 'song', 'spring', 'directly', 'life', 'people', 'movie', 'exalts', 'marxian', 'dream', 'honest', 'working', 'folk', 'little', 'show', 'labor', 'living', 'harmoniously', 'joined', 'song']	3
-3859	['movie', 'vision', 'white', 'american', 'zealously', 'spreading', 'puritanical', 'brand', 'christianity', 'south', 'sea', 'islander', 'one', 'true', 'believer', 'could', 'relish']	1
+3859	['movie', 'vision', 'white', 'american', 'zealously', 'spreading', 'puritanical', 'brand', 'christianity', 'south', 'sea', 'islander', 'one', 'true', 'believer', 'relish']	3
 712	['practically', 'hear', 'george', 'orwell', 'turning']	1
-7115	['nothing', 'one', 'relentlessly', 'depressing', 'situation', 'another', 'entire', 'running', 'time', 'something', 'could', 'easily', 'dealing', 'right', 'life']	1
+7115	['nothing', 'one', 'relentlessly', 'depressing', 'situation', 'another', 'entire', 'running', 'time', 'something', 'easily', 'dealing', 'right', 'life']	1
 2039	['frida', 'certainly', 'disaster', 'neither', 'kahlo', 'movie', 'frida', 'fan', 'looking']	1
-228	['though', 'film', 'one', 'could', 'rent', 'original', 'get', 'love', 'story', 'parable']	2
+228	['though', 'film', 'one', 'rent', 'original', 'get', 'love', 'story', 'parable']	2
 6889	['story', 'zing', 'way', 'originality', 'humour', 'pathos']	3
 485	['stayed']	3
 3643	['red', 'dragon', 'make', 'one', 'appreciate', 'silence', 'lamb']	4
 4894	['plain', 'pedestrian', 'catsup']	2
 5580	['looking', 'tale', 'brit', 'behaving', 'badly', 'watch', 'snatch']	1
-2374	['filmmaker', 'calculation', 'ca', 'rescue', 'brown', 'sugar', 'curse', 'blandness']	1
+2374	['filmmaker', 'calculation', 'rescue', 'brown', 'sugar', 'curse', 'blandness']	3
 7163	['animation', 'competent', 'gag', 'quite', 'funny', 'jonah', 'never', 'shake', 'oppressive', 'morally', 'superior', 'quality', 'almost', 'automatically', 'accompanies', 'didactic', 'entertainment']	2
 6965	['real', 'strike', 'chord', 'anyone', 'ever', 'waited', 'doctor', 'office', 'emergency', 'room', 'hospital', 'bed', 'insurance', 'company', 'office']	3
 3595	['watching', 'film', 'one', 'left', 'inescapable', 'conclusion', 'hitchens', 'obsession', 'kissinger', 'bottom', 'sophisticated', 'flower', 'child', 'desire', 'purge', 'world', 'tooth', 'claw', 'human', 'power']	3
-3181	['australian', 'filmmaker', 'david', 'flatman', 'us', 'format', 'make', 'nature', 'film', 'educates', 'viewer', 'word', 'picture', 'entertaining']	3
+3181	['australian', 'filmmaker', 'david', 'flatman', 'format', 'make', 'nature', 'film', 'educates', 'viewer', 'word', 'picture', 'entertaining']	3
 6087	['collateral', 'damage']	0
 1029	['interesting', 'compelling']	3
 4919	['gosling', 'combination', 'explosive', 'physical', 'energy', 'convincing', 'intelligence', 'help', 'create', 'complex', 'unpredictable', 'character']	4
@@ -736,7 +736,7 @@ SentenceId	Phrase	Sentiment
 4212	['animation', 'merely', 'serf', 'predictable', 'maudlin', 'story', 'swipe', 'heavily', 'bambi', 'lion', 'king', 'yet', 'lack', 'emotional', 'resonance', 'either', 'movie']	1
 2640	['disney', 'ransacks', 'archive', 'sequel']	4
 7642	['travesty', 'unparalleled', 'proportion', 'parker', 'seems', 'go', 'way', 'turn', 'legendary', 'wit', 'classic', 'mistaken', 'identity', 'farce', 'brutally', 'labored', 'unfunny', 'hokum']	1
-6312	['show', 'character', 'act', 'give', 'feeling', 'remorse', 'cut', 'repeatedly', 'flashback', 'original', 'rape', 'overkill', 'highest', 'degree']	1
+6312	['show', 'character', 'act', 'give', 'feeling', 'remorse', 'cut', 'repeatedly', 'flashback', 'original', 'rape', 'highest', 'degree']	1
 8175	['seriously', 'rent', 'disney', 'version']	1
 2278	['pretty', 'funny', 'movie', 'humor', 'coming', 'incongruous', 'chemically', 'perfect', 'teaming', 'crystal', 'de', 'niro']	3
 2676	['asks', 'nothing', 'audience', 'sit', 'back', 'enjoy', 'couple', 'great', 'actor', 'hamming']	1
@@ -757,20 +757,20 @@ SentenceId	Phrase	Sentiment
 5902	['enthusiastically', 'taking', 'current', 'teen', 'movie', 'concern', 'bodily', 'function', 'walt', 'becker', 'film', 'push', 'demographically', 'appropriate', 'comic', 'button']	3
 4171	['blade', 'ii', 'still', 'blazing', 'gun', 'cheatfully', 'filmed', 'martial', 'art', 'disintegrating', 'bloodsucker', 'computer', 'effect', 'jagged', 'camera', 'move', 'serve', 'purpose', 'call', 'attention']	3
 1516	['fairly', 'solid', 'mention', 'well', 'edited', 'certainly', 'doe', 'feel', 'like', 'film', 'stray', 'past', 'two', 'half', 'mark']	3
-4731	['waydowntown', 'may', 'important', 'movie', 'even', 'good', 'one', 'provides', 'nice', 'change', 'mindless', 'pace', 'collision', 'hot', 'oscar', 'season', 'currently', 'underway']	3
+4731	['waydowntown', 'important', 'movie', 'even', 'good', 'one', 'provides', 'nice', 'change', 'mindless', 'pace', 'collision', 'hot', 'oscar', 'season', 'currently', 'underway']	3
 416	['see', 'performance', 'nothing', 'else']	1
 8118	['strength', 'weakness', 'play', 'virtually', 'unfortunate', 'trump', 'card', 'dreary', 'film']	1
 15	['still', 'like', 'moonlight', 'mile', 'better', 'judgment', 'damned']	3
-3286	['cutting', 'room', 'floor', 'somewhere', 'lie', 'footage', 'might', 'made', 'thing', 'trenchant', 'ironic', 'cultural', 'satire', 'instead', 'frustrating', 'misfire']	2
+3286	['cutting', 'room', 'floor', 'somewhere', 'lie', 'footage', 'made', 'thing', 'trenchant', 'ironic', 'cultural', 'satire', 'instead', 'frustrating', 'misfire']	2
 3987	['doe', 'make', 'great', 'cinema', 'interesting', 'see', 'one', 'imagination', 'lead', 'given', 'opportunity']	1
 8343	['ha', 'moment', 'almost', 'many', 'subplots']	1
 8512	['sly', 'dissection', 'inanity', 'contemporary', 'music', 'business', 'rather', 'sad', 'story', 'difficulty', 'artistic', 'collaboration']	3
 6398	['start', 'tart', 'little', 'lemon', 'drop', 'movie', 'end', 'bitter', 'pill']	1
 7750	['obnoxious', 'title', 'character', 'provides', 'drama', 'give', 'added', 'clout', 'doc']	3
-7605	['better', 'movie', 'might', 'noticed']	1
+7605	['better', 'movie', 'noticed']	1
 3249	['predictable', 'cloying', 'though', 'brown', 'sugar', 'earnest', 'yearning', 'day', 'rap', 'went', 'nihilistic', 'summons', 'spirit', 'bite', 'average', 'formulaic', 'romantic', 'quadrangle']	3
 6519	['every', 'opportunity', 'something', 'clever', 'film', 'go', 'right', 'edge', 'kill', 'every', 'sense', 'believability', 'left', 'series', 'explosion', 'violence', 'banderas', 'look', 'like', 'trying', 'laugh', 'bad']	1
-8123	['much', 'movie', 'feel', 'contrived', 'filmmaker', 'worried', 'story', 'would', 'work', 'without', 'gimmick']	1
+8123	['much', 'movie', 'feel', 'contrived', 'filmmaker', 'worried', 'story', 'work', 'without', 'gimmick']	1
 3033	['easier', 'sit', 'jaglom', 'gratingly', 'irritating', 'film', 'still', 'tainted', 'cliche', 'painful', 'improbability', 'murky', 'point']	1
 5016	['bartlett', 'hero', 'remains', 'reactive', 'cipher', 'opening', 'man', 'head', 'heart', 'imaginable', 'reason', 'film', 'made']	3
 7162	['delightfully', 'quirky', 'movie', 'made', 'curling', 'broom']	3
@@ -779,12 +779,12 @@ SentenceId	Phrase	Sentiment
 1336	['like', 'many', 'western', 'action', 'film', 'thriller', 'loud', 'thoroughly', 'overbearing', 'heartfelt', 'concern', 'north', 'korea', 'recent', 'past', 'south', 'korea', 'future', 'add', 'much', 'needed', 'moral', 'weight']	1
 8043	['fascinating', 'film', 'hero', 'villain']	3
 179	['beautifully', 'crafted', 'engaging', 'filmmaking', 'attract', 'upscale', 'audience', 'hungry', 'quality', 'nostalgic', 'twisty', 'yarn', 'keep', 'guessing']	3
-5553	['dumb', 'dumber', 'would', 'without', 'vulgarity', 'intelligent', 'script']	3
+5553	['dumb', 'dumber', 'without', 'vulgarity', 'intelligent', 'script']	3
 6607	['ub', 'equally', 'spoof', 'celebrates', 'outre', 'aspect', 'black', 'culture', 'dorkier', 'aspect', 'white', 'culture', 'even', 'point', 'inseparable', 'two']	3
 1391	['one', 'funniest', 'motion', 'picture', 'year', 'also', 'one', 'curiously', 'depressing']	4
 4663	['skillfully', 'weave', 'element', 'plot', 'powerfully', 'evocative', 'mood', 'combining', 'heated', 'sexuality', 'haunting', 'sense', 'malaise']	3
 4623	['barney', 'throw', 'away', 'goodwill', 'first', 'half', 'movie', 'generates', 'orchestrating', 'finale', 'impenetrable', 'dull']	1
-1514	['terry', 'sort', 'geriatric', 'dirty', 'harry', 'please', 'eastwood', 'loyal', 'fan', 'suit', 'story', 'wherein', 'hero', 'must', 'ride', 'roughshod', 'incompetent', 'cop', 'get', 'man']	3
+1514	['terry', 'sort', 'geriatric', 'dirty', 'harry', 'please', 'eastwood', 'loyal', 'fan', 'suit', 'story', 'wherein', 'hero', 'ride', 'roughshod', 'incompetent', 'cop', 'get', 'man']	3
 4238	['match', 'neorealism', 'impact', 'showing', 'humanity', 'land', 'filled', 'people', 'want', 'live', 'life']	3
 947	['funny', 'heartwarming', 'film']	3
 1596	['noyce', 'ha', 'worked', 'wonder', 'material']	1
@@ -792,7 +792,7 @@ SentenceId	Phrase	Sentiment
 7914	['drag', 'nettelbeck', 'see', 'working', 'woman', 'least', 'working', 'woman', 'show', 'little', 'understanding']	3
 3867	['brim', 'passion', 'word', 'eccentric', 'character', 'crazy', 'thing', 'keep', 'people', 'going', 'crazy', 'life']	3
 5872	['chilling', 'fascinating', 'philippe', 'mora', 'modern', 'snide', 'prejudice']	3
-4112	['may', 'meant', 'internet', 'short', 'saving', 'ryan', 'private']	1
+4112	['meant', 'internet', 'short', 'saving', 'ryan', 'private']	1
 905	['done']	1
 5148	['histrionic', 'muse', 'still', 'eludes', 'madonna', 'playing', 'charmless', 'witch', 'merely', 'charmless', 'witch']	1
 1330	['manipulative', 'feminist', 'empowerment', 'tale', 'thinly', 'posing', 'serious', 'drama', 'spousal', 'abuse']	3
@@ -804,7 +804,7 @@ SentenceId	Phrase	Sentiment
 1496	['intensely', 'focused', 'travail', 'hal', 'hartley', 'function', 'pastiche', 'thing', 'hartley', 'least', 'accessible', 'screed', 'yet']	1
 3800	['utter', 'mush', 'conceited', 'pap']	1
 4235	['nicholas', 'nickleby', 'perfect', 'family', 'film', 'take', 'everyone', 'since', 'new', 'christmas', 'carol', 'theater', 'year']	3
-2245	['sly', 'female', 'empowerment', 'movie', 'although', 'way', 'anyone', 'would', 'expect']	3
+2245	['sly', 'female', 'empowerment', 'movie', 'although', 'way', 'anyone', 'expect']	3
 5436	['extravaganza', 'good', 'time']	2
 2411	['kapur', 'fails', 'give', 'audience', 'single', 'character', 'worth', 'rooting', 'worth', 'rooting', 'matter']	2
 2351	['windtalker', 'doe', 'beat', 'one', 'either']	2
@@ -834,10 +834,10 @@ SentenceId	Phrase	Sentiment
 1794	['bland', 'pretentious', 'mess']	1
 4308	['romething', 'really', 'wrong', 'ricture']	1
 4009	['narc', 'throwback', 'action', 'film']	1
-4886	['love', 'liza', 'festival', 'film', 'would', 'better', 'staying', 'festival', 'circuit']	2
+4886	['love', 'liza', 'festival', 'film', 'better', 'staying', 'festival', 'circuit']	2
 2366	['talking', 'head', 'documentary', 'great', 'one']	2
 1157	['team', 'continues', 'systematically', 'destroy', 'everything', 'hold', 'dear', 'cinema', 'begun', 'split', 'even', 'damage']	2
-2469	['peter', 'jackson', 'company', 'dazzle', 'delight', 'u', 'fulfilling', 'practically', 'every', 'expectation', 'either', 'longtime', 'tolkien', 'fan', 'neophyte', 'could', 'want']	3
+2469	['peter', 'jackson', 'company', 'dazzle', 'delight', 'u', 'fulfilling', 'practically', 'every', 'expectation', 'either', 'longtime', 'tolkien', 'fan', 'neophyte', 'want']	3
 826	['remarkably', 'alluring', 'film', 'set', 'constrictive', 'eisenhower', 'era', 'one', 'suburban', 'woman', 'yearning', 'face', 'loss', 'shatters', 'cheery', 'tranquil', 'suburban', 'life']	3
 2531	['ha', 'great', 'cast', 'great', 'idea']	3
 613	['walk', 'good', 'girl', 'mixed', 'emotion', 'disapproval', 'justine', 'combined', 'tinge', 'understanding', 'action']	1
@@ -845,7 +845,7 @@ SentenceId	Phrase	Sentiment
 6375	['simultaneously', 'funny', 'last', 'kiss', 'really', 'performance']	4
 4164	['passionately', 'inquisitive', 'film', 'determined', 'uncover', 'truth', 'hopefully', 'inspire', 'action']	1
 6196	['firmly', 'believe', 'good', 'video', 'game', 'movie', 'going', 'show', 'soon']	2
-5259	['could', 'geeked', 'heard', 'apollo', 'wa', 'going', 'released', 'imax', 'format']	1
+5259	['geeked', 'heard', 'apollo', 'wa', 'going', 'released', 'imax', 'format']	1
 7335	['nakata', 'technique', 'imply', 'terror', 'suggestion', 'rather', 'overuse', 'special', 'effect']	1
 4071	['um']	3
 203	['latently', 'gay', 'liking', 'read', 'hardly', 'enough']	1
@@ -856,7 +856,7 @@ SentenceId	Phrase	Sentiment
 7905	['bring', 'tissue']	4
 4411	['mandel', 'holland', 'direction', 'uninspired', 'scripting', 'unsurprising', 'performance', 'phifer', 'black', 'ultimately', 'winning']	3
 3933	['aimless', 'arduous', 'arbitrary']	0
-1836	['wa', 'filled', 'shooting', 'beating', 'cussing', 'could', 'shake', 'stick']	1
+1836	['wa', 'filled', 'shooting', 'beating', 'cussing', 'shake', 'stick']	1
 88	['imax', 'short', 'wonderful', 'big', 'screen']	3
 6381	['film', 'sparkle', 'wisdom', 'humor', 'subject']	1
 5492	['overly', 'melodramatic', 'somewhat', 'insightful', 'french', 'film']	3
@@ -874,16 +874,16 @@ SentenceId	Phrase	Sentiment
 1166	['best', 'guarded', 'resentful', 'betty', 'manipulative', 'yet', 'needy', 'margot', 'front', 'center']	3
 7414	['wannabe', 'comedy', 'manner', 'brainy', 'kid', 'robinson', 'complex', 'founder', 'preciousness', 'squanders', 'beautiful', 'woman']	4
 5582	['schnitzler', 'doe', 'fine', 'job', 'contrasting', 'sleekness', 'film', 'present', 'playful', 'paranoia', 'film', 'past']	3
-2905	['whatever', 'movie', 'sentimental', 'hypocritical', 'lesson', 'sexism', 'true', 'color', 'come', 'various', 'wet', 'shower', 'scene']	1
+2905	['movie', 'sentimental', 'hypocritical', 'lesson', 'sexism', 'true', 'color', 'come', 'various', 'wet', 'shower', 'scene']	1
 3941	['combine', 'paranoid', 'claustrophobia', 'submarine', 'movie', 'unsettling', 'spookiness', 'supernatural', 'hollywood', 'think', 'sooner']	3
 2822	['stylish', 'steady', 'ultimately', 'satisfying', 'piece', 'storytelling']	4
-5808	['sentimental', 'hybrid', 'could', 'benefit', 'spice', 'specificity']	3
+5808	['sentimental', 'hybrid', 'benefit', 'spice', 'specificity']	3
 1200	['timid', 'soggy', 'near', 'miss']	1
 5358	['instead', 'balanced', 'film', 'explains', 'zeitgeist', 'x', 'game', 'get', 'cinematic', 'postcard', 'superficial', 'unrealized']	0
 1384	['lot', 'like', 'imaginary', 'sport', 'project', 'onto', 'screen', 'loud', 'violent', 'mindless']	1
 4801	['two', 'week', 'notice', 'ha', 'appeal', 'beyond', 'sandra', 'bullock', 'vehicle', 'standard', 'romantic', 'comedy']	3
 342	['wit', 'empathy', 'spare', 'waydowntown', 'acknowledges', 'silent', 'scream', 'workaday', 'inertia', 'stop', 'short', 'indulging', 'character', 'striving', 'solipsism']	3
-468	['friday', 'next', 'kind', 'film', 'could', 'made', 'broad', 'racial', 'insensitivity', 'towards']	1
+468	['friday', 'next', 'kind', 'film', 'made', 'broad', 'racial', 'insensitivity', 'towards']	3
 1012	['whole', 'thing', 'play', 'like', 'tired', 'tyco', 'ad']	1
 7944	['sometimes', 'need', 'comforting', 'fantasy', 'mental', 'illness', 'also', 'need', 'movie', 'like', 'tim', 'mccann', 'revolution']	2
 1573	['vividly', 'demonstrates', 'director', 'hollywood', 'blockbuster', 'patriot', 'game', 'still', 'turn', 'small', 'personal', 'film', 'emotional', 'wallop']	3
@@ -901,7 +901,7 @@ SentenceId	Phrase	Sentiment
 1595	['required', 'viewing', 'civics', 'class', 'public', 'servant', 'alike']	3
 1507	['one', 'best', 'looking', 'stylish', 'animated', 'movie', 'quite']	1
 6331	['divine', 'secret', 'sisterhood', 'suffers', 'ploddingly', 'melodramatic', 'structure', 'come', 'life', 'performance']	1
-3123	['oh', 'james']	2
+3123	['oh', 'james']	3
 6322	['engrossing', 'iranian', 'film', 'two', 'itinerant', 'teacher', 'lost', 'desolate', 'people', 'encounter', 'place', 'war', 'ha', 'savaged', 'life', 'liberty', 'poor', 'dispossessed']	3
 2644	['labor', 'love', 'strike', 'resonant', 'chord']	3
 4994	['story', 'undeniably', 'hard', 'follow', 'iwai', 'gorgeous', 'visuals', 'seduce']	3
@@ -951,14 +951,14 @@ SentenceId	Phrase	Sentiment
 8113	['aimlessly', 'unsuccessfully', 'attempt', 'fuse', 'least', 'three', 'dull', 'plot', 'one', 'good', 'one']	1
 630	['deeply', 'felt', 'vividly', 'detailed', 'story', 'newcomer', 'strange', 'new', 'world']	3
 6457	['extraordinary', 'dramatic', 'experience']	4
-2622	['could', 'pointed', 'little', 'chiller', 'frightening', 'seductiveness', 'new', 'technology', 'loses', 'faith', 'viability', 'succumbs', 'joyless', 'excess']	3
+2622	['pointed', 'little', 'chiller', 'frightening', 'seductiveness', 'new', 'technology', 'loses', 'faith', 'viability', 'succumbs', 'joyless', 'excess']	3
 4771	['one', 'rare', 'film', 'come', 'flawless', 'amount', 'acting', 'direction', 'story', 'pace']	3
 6470	['eight', 'legged', 'freak']	2
 1910	['choppy', 'feeling', 'whole', 'enterprise']	1
 2513	['gratuitous', 'long', 'schwentke', 'fulfilling', 'quota', 'anticipated', 'audience', 'demographic', 'instead', 'shaping', 'material', 'fit', 'story']	1
 2512	['satire', 'subtle', 'effective']	3
 5341	['film', 'verbal', 'duel', 'two', 'gifted', 'performer']	3
-5586	['could', 'love', 'safe', 'conduct', 'laissez', 'passer', 'subtitled', 'french', 'movie', 'minute', 'long']	3
+5586	['love', 'safe', 'conduct', 'laissez', 'passer', 'subtitled', 'french', 'movie', 'minute', 'long']	3
 2729	['never', 'fully']	1
 7703	['fun', 'nimble']	4
 5427	['ludicrous', 'film', 'predictable', 'every', 'turn']	1
@@ -998,4 +998,4 @@ SentenceId	Phrase	Sentiment
 7704	['unfolds', 'series', 'achronological', 'vignette', 'whose', 'cumulative', 'effect', 'chilling']	4
 3524	['thoroughly', 'engaging', 'surprisingly', 'touching', 'british', 'comedy']	3
 3070	['harrowing', 'journey', 'combat', 'hell', 'vividly', 'capture', 'chaotic', 'insanity', 'personal', 'tragedy', 'abundant', 'human', 'hatred', 'spews', 'forth', 'unchecked']	3
-3303	['kept', 'much', 'plot', 'jettisoned', 'stuff', 'would', 'make', 'moving', 'experience', 'people', 'read', 'book']	3
+3303	['kept', 'much', 'plot', 'jettisoned', 'stuff', 'make', 'moving', 'experience', 'people', 'read', 'book']	3
