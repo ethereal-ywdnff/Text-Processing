@@ -18,17 +18,17 @@ def macro_f1_score(real_sentiment, pred_sentiment, classes):
     f1_scores = []
 
     for i in classes:
-        tp = sum((real_sentiment == i) & (pred_sentiment == i))
-        fp = sum((real_sentiment != i) & (pred_sentiment == i))
-        fn = sum((real_sentiment == i) & (pred_sentiment != i))
-
+        tp = sum((real_sentiment == i) & (pred_sentiment == i))  # True positives
+        fp = sum((real_sentiment != i) & (pred_sentiment == i))  # False positives
+        fn = sum((real_sentiment == i) & (pred_sentiment != i))  # False negatives
+        # Precision and Recall calculation
         precision = tp / (tp + fp) if tp + fp != 0 else 0
         recall = tp / (tp + fn) if tp + fn != 0 else 0
         f1 = 2 * (precision * recall) / (precision + recall) if precision + recall != 0 else 0
-
+        # F1 Score calculation
         f1_scores.append(f1)
 
-    return np.mean(f1_scores)
+    return np.mean(f1_scores)   # Averaging F1 scores across all classes
 
 
 def generate_confusion_matrix(real_sentiment, pred_sentiment, classes):

@@ -3,7 +3,7 @@ from nltk import pos_tag
 
 def select_words(text, cl):
     """
-    Extracts the adjectives, nouns, verbs, adverbs and interrogative pronouns.
+    Extracts the words based on the lexical properties.
 
     Args:
     text (str): The data need to be extracted features.
@@ -13,11 +13,8 @@ def select_words(text, cl):
     list of str: text with specific features.
     """
     pos_tags = pos_tag(text)
-    # JJ: adjective  NN: noun   VB: verb   RB: adverb   WP: interrogative pronoun
-    # text = [word for word, tag in pos_tags if tag.startswith('JJ') or tag.startswith('NN')
-    #              or tag.startswith('VB') or tag.startswith('RB')) or tag.startswith('WP')]
     # JJ: adjective  NN: noun, VB: verb, RB: adverb, CC: conjunction WP: interrogative pronoun, FW: foreign words,
-    # IN: prepositions/subordinating conjunction, DT: determiners, CD: numerals, RP: e.g. "up", "off", "out"
+    # IN: prepositions/subordinating conjunction, DT: determiners, CD: numerals, RP: particles, e.g. "up", "off", "out"
     if cl == 5:
         text = [word for word, tag in pos_tags if tag.startswith('JJ') or tag.startswith('NN')
                 or tag.startswith('VB') or tag.startswith('RB') or tag.startswith('CC') or tag.startswith('WP')

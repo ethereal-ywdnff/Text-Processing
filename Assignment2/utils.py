@@ -1,6 +1,4 @@
-import math
 import re
-
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
@@ -8,9 +6,9 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 # Download necessary NLTK resources
-# nltk.download('punkt')
-# nltk.download('wordnet')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 def preprocess(text):
     """
@@ -39,9 +37,6 @@ def preprocess(text):
     stop_words = set(stopwords.words('english'))
     text = [token for token in text if token not in stop_words and token.isalpha()]
 
-    # Reconstruct the text
-    # text = ' '.join(text)
-
     return text
 
 def load_data(file_path):
@@ -55,26 +50,6 @@ def load_data(file_path):
     DataFrame: Pandas DataFrame containing the loaded data.
     """
     return pd.read_csv(file_path, sep="\t", encoding='utf-8')
-
-# def preprocess(text):
-#     """
-#     Preprocess the input text.
-#
-#     Args:
-#     text (str): Text to be preprocessed.
-#
-#     Returns:
-#     str: Preprocessed text.
-#     """
-#     # Convert to lowercase
-#     text = text.lower()
-#
-#     # Remove punctuation
-#     text = re.sub(r'[^\w\s]', '', text)
-#
-#     text = text.split()
-#
-#     return text
 
 
 def map_sentiment_5_to_3(label):
