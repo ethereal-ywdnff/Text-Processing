@@ -1,3 +1,4 @@
+import math
 import re
 
 import pandas as pd
@@ -24,7 +25,8 @@ def preprocess(text):
 
     # Convert to lowercase
     text = text.lower()
-    # text = re.sub(r'[^\w\s]', '', text)
+    # Remove punctuation
+    text = re.sub(r'[^\w\s]', '', text)
 
     # Tokenization
     text = word_tokenize(text)
@@ -33,12 +35,12 @@ def preprocess(text):
     lemmatizer = WordNetLemmatizer()
     text = [lemmatizer.lemmatize(token) for token in text]
 
-    # Remove stop words and punctuation
+    # Remove stop words
     stop_words = set(stopwords.words('english'))
     text = [token for token in text if token not in stop_words and token.isalpha()]
 
     # Reconstruct the text
-    # text = ' '.join(tokens)
+    # text = ' '.join(text)
 
     return text
 

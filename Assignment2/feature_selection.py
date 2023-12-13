@@ -15,17 +15,17 @@ def select_words(text, cl):
     pos_tags = pos_tag(text)
     # JJ: adjective  NN: noun   VB: verb   RB: adverb   WP: interrogative pronoun
     # text = [word for word, tag in pos_tags if tag.startswith('JJ') or tag.startswith('NN')
-    #              or tag.startswith('VB') or tag.startswith('RB') or tag.startswith('WP')]
+    #              or tag.startswith('VB') or tag.startswith('RB')) or tag.startswith('WP')]
     # JJ: adjective  NN: noun, VB: verb, RB: adverb, CC: conjunction WP: interrogative pronoun, FW: foreign words,
-    # IN: prepositions/subordinating conjunction, DT: determiners, CD: numerals, UH: interjections
+    # IN: prepositions/subordinating conjunction, DT: determiners, CD: numerals, RP: e.g. "up", "off", "out"
     if cl == 5:
         text = [word for word, tag in pos_tags if tag.startswith('JJ') or tag.startswith('NN')
                 or tag.startswith('VB') or tag.startswith('RB') or tag.startswith('CC') or tag.startswith('WP')
                 or tag.startswith('FW') or tag.startswith('IN') or tag.startswith('DT') or tag.startswith('CD')
-                or tag.startswith('UH')]
+                or tag.startswith('RP')]
     else:  # cl == 3
         text = [word for word, tag in pos_tags if tag.startswith('JJ') or tag.startswith('NN') or tag.startswith('VB')
-                or tag.startswith('RB') or tag.startswith('CC') or tag.startswith('WP') or tag.startswith('CD')]
+                or tag.startswith('RB') or tag.startswith('WP') or tag.startswith('CD')]
     return text
 
 
