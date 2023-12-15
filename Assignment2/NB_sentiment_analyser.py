@@ -82,7 +82,6 @@ def main():
     if inputs.output_files:
         dev_predictions_df = pd.DataFrame({
             'SentenceId': dev_data['SentenceId'],
-            # 'Phrase': dev,
             'Sentiment': dev_predictions
         })
 
